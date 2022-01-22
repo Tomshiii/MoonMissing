@@ -41,7 +41,7 @@ namespace MoonMissing.Models
     public static readonly GameLevel Seaside = new(10);
     public static readonly GameLevel Luncheon = new(11);
     public static readonly GameLevel Ruined = new(12);
-    public static readonly GameLevel Bowser = new(13, "Bowser's");
+    public static readonly GameLevel Bowsers = new(13, "Bowser's");
     public static readonly GameLevel Moon = new(14);
     public static readonly GameLevel DarkSide = new(15, "Dark Side");
     public static readonly GameLevel DarkerSide = new(16, "Darker Side");
