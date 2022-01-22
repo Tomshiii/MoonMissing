@@ -72,7 +72,7 @@ namespace MoonMissing
       csv.AppendLine("id,moonNumber,kingdom,moonName,,");
       foreach (var data in moonData)
       {
-        csv.AppendLine($"{data.Id},{data.MoonNumber},{data.Kingdom.Name},{data.MoonName.Replace(",", "")},,");
+        csv.AppendLine($"{data.MoonId},{data.MoonNumber},{data.Kingdom.Name},{data.MoonName.Replace(",", "")},,");
       }
 
       File.WriteAllText("CSV_MOONS.csv", csv.ToString());

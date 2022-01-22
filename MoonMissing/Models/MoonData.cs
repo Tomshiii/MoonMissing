@@ -7,7 +7,7 @@
 // File Name: MoonData.cs
 // 
 // Current Data:
-// 2022-01-22 5:51 PM
+// 2022-01-22 9:41 PM
 // 
 // Creation Date:
 // 2022-01-22 4:27 PM
@@ -26,13 +26,15 @@ namespace MoonMissing.Models
   internal class MoonData
   {
     [JsonProperty("id")]
-    public int Id { get; init; }
+    public int MoonId { get; init; }
 
     [JsonProperty("moonNumber")]
     public int MoonNumber { get; init; }
 
+    public int KingdomId => Kingdom.Value;
+
     [JsonProperty("kingdom")]
-    public GameLevel Kingdom { get; init; }
+    public Kingdom Kingdom { get; init; }
 
     [JsonProperty("name")]
     public string MoonName { get; init; }
