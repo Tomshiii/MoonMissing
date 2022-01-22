@@ -11,76 +11,19 @@
     mc:Ignorable="d">
     <Grid Margin="10">
         <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <WrapPanel Orientation="Horizontal">
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="0" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="1" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="2" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="3" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="4" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="5" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="6" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="7" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="8" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="9" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="10" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="11" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="12" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="13" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="14" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="15" />
-                <Button
-                    Width="200"
-                    Height="112"
-                    Content="16" />
-            </WrapPanel>
+            <ItemsControl>
+                <ItemsControl.Template>
+                    <ControlTemplate>
+                        <WrapPanel FlowDirection="LeftToRight" IsItemsHost="true" />
+                    </ControlTemplate>
+                </ItemsControl.Template>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button />
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
         </ScrollViewer>
     </Grid>
 </Window>
