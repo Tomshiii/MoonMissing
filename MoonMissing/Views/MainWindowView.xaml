@@ -1,0 +1,86 @@
+﻿<Window
+    x:Class="MoonMissing.Views.MainWindowView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MoonMissing.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid Margin="10">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <WrapPanel Orientation="Horizontal">
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="0" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="1" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="2" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="3" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="4" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="5" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="6" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="7" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="8" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="9" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="10" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="11" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="12" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="13" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="14" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="15" />
+                <Button
+                    Width="200"
+                    Height="112"
+                    Content="16" />
+            </WrapPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
