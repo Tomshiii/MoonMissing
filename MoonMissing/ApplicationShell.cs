@@ -7,7 +7,7 @@
 // File Name: ApplicationShell.cs
 // 
 // Current Data:
-// 2022-01-22 5:51 PM
+// 2022-01-22 7:59 PM
 // 
 // Creation Date:
 // 2022-01-22 4:08 PM
@@ -39,9 +39,12 @@ namespace MoonMissing
     private ApplicationShell()
     {
       var moonData = GetMoonData();
-      WriteAsCsv(moonData);
+      //WriteAsCsv(moonData);
 
-      var window = new MainWindowView { DataContext = new MainWindowViewModel() };
+      var window = new MainWindowView
+      {
+        DataContext = new MainWindowViewModel(moonData)
+      };
       window.ShowDialog();
 
       Environment.Exit(0);
