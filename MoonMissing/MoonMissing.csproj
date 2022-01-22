@@ -1,119 +1,120 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
-    <UseWPF>true</UseWPF>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Resources\images\L1_cap.png" />
-    <None Remove="Resources\images\L2_Cascade.png" />
-    <None Remove="Resources\images\L3_Sand.png" />
-    <None Remove="Resources\images\Levels\Bowsers.png" />
-    <None Remove="Resources\images\Levels\Cap.png" />
-    <None Remove="Resources\images\Levels\Cascade.png" />
-    <None Remove="Resources\images\Levels\Cloud.png" />
-    <None Remove="Resources\images\Levels\Dark.png" />
-    <None Remove="Resources\images\Levels\Darker.png" />
-    <None Remove="Resources\images\Levels\Lake.png" />
-    <None Remove="Resources\images\Levels\Lost.png" />
-    <None Remove="Resources\images\Levels\Luncheon.png" />
-    <None Remove="Resources\images\Levels\Metro.png" />
-    <None Remove="Resources\images\Levels\Moon.png" />
-    <None Remove="Resources\images\Levels\Mushroom.png" />
-    <None Remove="Resources\images\Levels\Ruined.png" />
-    <None Remove="Resources\images\Levels\Sand.png" />
-    <None Remove="Resources\images\Levels\Seaside.png" />
-    <None Remove="Resources\images\Levels\Snow.png" />
-    <None Remove="Resources\images\Levels\Wooded.png" />
-    <None Remove="Resources\images\Moons\Moon_Bowser.png" />
-    <None Remove="Resources\images\Moons\Moon_Lake.png" />
-    <None Remove="Resources\images\Moons\Moon_Luncheon.png" />
-    <None Remove="Resources\images\Moons\Moon_Metro.png" />
-    <None Remove="Resources\images\Moons\Moon_Moon.png" />
-    <None Remove="Resources\images\Moons\Moon_Sand.png" />
-    <None Remove="Resources\images\Moons\Moon_Seaside.png" />
-    <None Remove="Resources\images\Moons\Moon_Snow.png" />
-    <None Remove="Resources\images\Moons\Moon_Wooded.png" />
-    <None Remove="Resources\images\Moons\Multi_Moon.png" />
-    <None Remove="Resources\images\Moons\Super_Star.png" />
-    <None Remove="Resources\MoonData.json" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Remove="Resources\images\L1_cap.png" />
+		<None Remove="Resources\images\L2_Cascade.png" />
+		<None Remove="Resources\images\L3_Sand.png" />
+		<None Remove="Resources\images\Levels\Bowsers.png" />
+		<None Remove="Resources\images\Levels\Cap.png" />
+		<None Remove="Resources\images\Levels\Cascade.png" />
+		<None Remove="Resources\images\Levels\Cloud.png" />
+		<None Remove="Resources\images\Levels\Dark.png" />
+		<None Remove="Resources\images\Levels\Darker.png" />
+		<None Remove="Resources\images\Levels\Lake.png" />
+		<None Remove="Resources\images\Levels\Lost.png" />
+		<None Remove="Resources\images\Levels\Luncheon.png" />
+		<None Remove="Resources\images\Levels\Metro.png" />
+		<None Remove="Resources\images\Levels\Moon.png" />
+		<None Remove="Resources\images\Levels\Mushroom.png" />
+		<None Remove="Resources\images\Levels\Ruined.png" />
+		<None Remove="Resources\images\Levels\Sand.png" />
+		<None Remove="Resources\images\Levels\Seaside.png" />
+		<None Remove="Resources\images\Levels\Snow.png" />
+		<None Remove="Resources\images\Levels\Wooded.png" />
+		<None Remove="Resources\images\Moons\Moon_Bowser.png" />
+		<None Remove="Resources\images\Moons\Moon_Lake.png" />
+		<None Remove="Resources\images\Moons\Moon_Luncheon.png" />
+		<None Remove="Resources\images\Moons\Moon_Metro.png" />
+		<None Remove="Resources\images\Moons\Moon_Moon.png" />
+		<None Remove="Resources\images\Moons\Moon_Sand.png" />
+		<None Remove="Resources\images\Moons\Moon_Seaside.png" />
+		<None Remove="Resources\images\Moons\Moon_Snow.png" />
+		<None Remove="Resources\images\Moons\Moon_Wooded.png" />
+		<None Remove="Resources\images\Moons\Multi_Moon.png" />
+		<None Remove="Resources\images\Moons\Super_Star.png" />
+		<None Remove="Resources\MoonData.json" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Resource Include="Resources\images\Levels\Bowsers.png" />
-    <Resource Include="Resources\images\Levels\Cap.png" />
-    <Resource Include="Resources\images\Levels\Cascade.png" />
-    <Resource Include="Resources\images\Levels\Cloud.png" />
-    <Resource Include="Resources\images\Levels\Dark.png" />
-    <Resource Include="Resources\images\Levels\Darker.png" />
-    <Resource Include="Resources\images\Levels\Lake.png" />
-    <Resource Include="Resources\images\Levels\Lost.png" />
-    <Resource Include="Resources\images\Levels\Luncheon.png" />
-    <Resource Include="Resources\images\Levels\Metro.png" />
-    <Resource Include="Resources\images\Levels\Moon.png" />
-    <Resource Include="Resources\images\Levels\Mushroom.png" />
-    <Resource Include="Resources\images\Levels\Ruined.png" />
-    <Resource Include="Resources\images\Levels\Sand.png" />
-    <Resource Include="Resources\images\Levels\Seaside.png" />
-    <Resource Include="Resources\images\Levels\Snow.png" />
-    <Resource Include="Resources\images\Levels\Wooded.png" />
-    <Resource Include="Resources\images\Moons\Moon_Bowser.png" />
-    <Resource Include="Resources\images\Moons\Moon_Lake.png" />
-    <Resource Include="Resources\images\Moons\Moon_Luncheon.png" />
-    <Resource Include="Resources\images\Moons\Moon_Metro.png" />
-    <Resource Include="Resources\images\Moons\Moon_Moon.png" />
-    <Resource Include="Resources\images\Moons\Moon_Sand.png" />
-    <Resource Include="Resources\images\Moons\Moon_Seaside.png" />
-    <Resource Include="Resources\images\Moons\Moon_Snow.png" />
-    <Resource Include="Resources\images\Moons\Moon_Wooded.png" />
-    <Resource Include="Resources\images\Moons\Multi_Moon.png" />
-    <Resource Include="Resources\images\Moons\Super_Star.png" />
-    <Resource Include="Resources\MoonData.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
+	<ItemGroup>
+		<Resource Include="Resources\images\Levels\Bowsers.png" />
+		<Resource Include="Resources\images\Levels\Cap.png" />
+		<Resource Include="Resources\images\Levels\Cascade.png" />
+		<Resource Include="Resources\images\Levels\Cloud.png" />
+		<Resource Include="Resources\images\Levels\Dark.png" />
+		<Resource Include="Resources\images\Levels\Darker.png" />
+		<Resource Include="Resources\images\Levels\Lake.png" />
+		<Resource Include="Resources\images\Levels\Lost.png" />
+		<Resource Include="Resources\images\Levels\Luncheon.png" />
+		<Resource Include="Resources\images\Levels\Metro.png" />
+		<Resource Include="Resources\images\Levels\Moon.png" />
+		<Resource Include="Resources\images\Levels\Mushroom.png" />
+		<Resource Include="Resources\images\Levels\Ruined.png" />
+		<Resource Include="Resources\images\Levels\Sand.png" />
+		<Resource Include="Resources\images\Levels\Seaside.png" />
+		<Resource Include="Resources\images\Levels\Snow.png" />
+		<Resource Include="Resources\images\Levels\Wooded.png" />
+		<Resource Include="Resources\images\Moons\Moon_Bowser.png" />
+		<Resource Include="Resources\images\Moons\Moon_Lake.png" />
+		<Resource Include="Resources\images\Moons\Moon_Luncheon.png" />
+		<Resource Include="Resources\images\Moons\Moon_Metro.png" />
+		<Resource Include="Resources\images\Moons\Moon_Moon.png" />
+		<Resource Include="Resources\images\Moons\Moon_Sand.png" />
+		<Resource Include="Resources\images\Moons\Moon_Seaside.png" />
+		<Resource Include="Resources\images\Moons\Moon_Snow.png" />
+		<Resource Include="Resources\images\Moons\Moon_Wooded.png" />
+		<Resource Include="Resources\images\Moons\Multi_Moon.png" />
+		<Resource Include="Resources\images\Moons\Super_Star.png" />
+		<Resource Include="Resources\MoonData.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AllOverIt" Version="2.4.0" />
-    <PackageReference Include="AllOverIt.Serialization.NewtonsoftJson" Version="1.4.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AllOverIt" Version="2.4.0" />
+		<PackageReference Include="AllOverIt.Serialization.NewtonsoftJson" Version="1.4.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Compile Update="Resources\EmbeddedData.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>EmbeddedData.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Resources\MoonImages.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>MoonImages.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Resources\LevelImages.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>LevelImages.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
+	<ItemGroup>
+		<Compile Update="Resources\EmbeddedData.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>EmbeddedData.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Resources\MoonImages.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>MoonImages.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Resources\LevelImages.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>LevelImages.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
 
-  <ItemGroup>
-    <EmbeddedResource Update="Resources\EmbeddedData.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EmbeddedData.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resources\MoonImages.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>MoonImages.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resources\LevelImages.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>LevelImages.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Update="Resources\EmbeddedData.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>EmbeddedData.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\MoonImages.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>MoonImages.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\LevelImages.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>LevelImages.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
 
 </Project>
