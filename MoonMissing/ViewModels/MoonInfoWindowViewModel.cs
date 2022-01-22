@@ -3,7 +3,7 @@ using MoonMissing.Models;
 
 namespace MoonMissing.ViewModels
 {
-  internal class MoonInfoWindowViewModel
+    internal class MoonInfoWindowViewModel
   {
     private IEnumerable<MoonData> _moonData;
 
