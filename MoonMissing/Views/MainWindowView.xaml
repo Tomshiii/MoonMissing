@@ -23,6 +23,5 @@
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
         </ScrollViewer>
-        <Image Source="{Binding Image}" />
     </Grid>
 </Window>
