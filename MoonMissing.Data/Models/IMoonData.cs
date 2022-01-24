@@ -6,8 +6,8 @@ namespace MoonMissing.Data.Models
     {
         int MoonId { get; }
         int MoonNumber { get; }
-        int KingdomId => Kingdom.Value;
-        Kingdom Kingdom { get; }
+        int KingdomId => KingdomName.Value;
+        KingdomName KingdomName { get; }
         string MoonName { get; }
         bool IsRockMoon { get; }
         bool IsSubAreaMoon { get; }

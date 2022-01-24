@@ -13,7 +13,7 @@ class Program
             .CreateConsoleHostBuilder()
             .ConfigureServices(services =>
             {
-                services.AddDbContext<MoonMissingContext>();
+                services.AddDbContext<MoonMissingDeployDbContext>();
                 services.AddScoped<IConsoleApp, App>();
             })
             .RunConsoleAsync(options => options.SuppressStatusMessages = true);

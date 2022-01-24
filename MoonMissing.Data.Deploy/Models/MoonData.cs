@@ -11,10 +11,10 @@ namespace MoonMissing.Data.Deploy.Models
         [JsonProperty("moonNumber")]
         public int MoonNumber { get; init; }
 
-        public int KingdomId => Kingdom.Value;
+        public int KingdomId => KingdomName.Value;
 
         [JsonProperty("kingdom")]
-        public Kingdom Kingdom { get; init; }
+        public KingdomName KingdomName { get; init; }
 
         [JsonProperty("name")]
         public string? MoonName { get; init; }
