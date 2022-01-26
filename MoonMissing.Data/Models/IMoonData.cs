@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace MoonMissing.Data.Models
+﻿namespace MoonMissing.Data.Models
 {
     public interface IMoonData
     {
