@@ -5,5 +5,9 @@ If you're towards the end of the run and notice you're missing a moon, quickly l
 
 Before now, your best (and really *only*) option was to google search the moon and hope IGN's guide popped up, but this can be quite cumbersome in the middle of a run to discern what you're actually after as random videos, maps, pictures and a bunch of other junk all load in as well as the tiny paragraph you're after. With this tool, you no longer need to dig around IGN's website or rely on your twitch chat to do that for you!
 
+## How can you help?
+
+If you are interested in helping with the project, please make a fork of the project and make your changes within the Main branch before submitting a pull request.
+
 ## Requirements:
  - .NET 6 Runtime
