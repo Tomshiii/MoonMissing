@@ -15,11 +15,10 @@ namespace MoonMissing.Data
         {
             base.OnConfiguring(options);
 
-            var connectionString = "server=localhost;user=root;password=password;database=MoonMissing";
-            var serverVersion = new MySqlServerVersion(new Version(8, 0, 26));
+            var connectionString = "data source=MoonMissing.db";
 
             options
-                .UseMySql(connectionString, serverVersion)
+                .UseSqlite(connectionString)
                 .LogTo(Console.WriteLine, LogLevel.Information)
                 .EnableDetailedErrors();
         }
