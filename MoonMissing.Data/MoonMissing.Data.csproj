@@ -7,7 +7,6 @@
 	<ItemGroup>
 		<PackageReference Include="AllOverIt" Version="2.4.0" />
 		<PackageReference Include="AllOverIt.EntityFrameworkCore" Version="1.1.2" />
-		<PackageReference Include="AllOverIt.Serialization.NewtonsoftJson" Version="1.4.0" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.1" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1">
