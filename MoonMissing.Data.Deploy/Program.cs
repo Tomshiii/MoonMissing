@@ -12,8 +12,8 @@ class Program
             .CreateConsoleHostBuilder()
             .ConfigureServices(services =>
             {
-                services.AddDbContext<MoonMissingDeployDbContext>();
-                services.AddScoped<IConsoleApp, App>();
+                services.AddDbContextFactory<MoonMissingDeployDbContext>();
+                services.AddSingleton<IConsoleApp, App>();
             })
             .RunConsoleAsync(options => options.SuppressStatusMessages = true);
     }

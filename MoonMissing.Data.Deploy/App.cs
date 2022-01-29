@@ -16,32 +16,35 @@ namespace MoonMissing.Data.Deploy
 {
     internal sealed class App : ConsoleAppBase
     {
-        private readonly MoonMissingDeployDbContext _dbContext;
+        private readonly IDbContextFactory<MoonMissingDeployDbContext> _dbContextFactory;
 
-        public App(MoonMissingDeployDbContext dbContext)
+        public App(IDbContextFactory<MoonMissingDeployDbContext> dbContextFactory)
         {
-            _dbContext = dbContext.WhenNotNull(nameof(dbContext));
+            _dbContextFactory = dbContextFactory.WhenNotNull(nameof(dbContextFactory));
         }
 
         public override async Task StartAsync(CancellationToken cancellationToken)
         {
-            // Just while testing
-            //await _dbContext.Database.EnsureDeletedAsync(cancellationToken);
+            using (var dbContext = await _dbContextFactory.CreateDbContextAsync(cancellationToken))
+            {
+                // Just while testing
+                //await dbContext.Database.EnsureDeletedAsync(cancellationToken);
 
-            await _dbContext.Database.MigrateAsync(cancellationToken);
+                await dbContext.Database.MigrateAsync(cancellationToken);
 
-            await CreateDataIfRequired();
+                await CreateDataIfRequired(dbContext, cancellationToken);
+            }
         }
 
-        private async Task CreateDataIfRequired()
+        private async Task CreateDataIfRequired(MoonMissingDeployDbContext dbContext, CancellationToken cancellationToken)
         {
-            var haveData = await _dbContext.Kingdoms
-                .AnyAsync()
+            var haveData = await dbContext.Kingdoms
+                .AnyAsync(cancellationToken)
                 .ConfigureAwait(false);
 
             if (!haveData)
             {
-                var moonData = await LoadJsonMoonData().ConfigureAwait(false);
+                var moonData = await LoadJsonMoonData(cancellationToken).ConfigureAwait(false);
 
                 var groupedMoonData = moonData
                     .GroupBy(item => new
@@ -66,10 +69,10 @@ namespace MoonMissing.Data.Deploy
                             .ToList()
                     };
 
-                    _dbContext.Kingdoms.Add(kingdomEntity);
+                    dbContext.Kingdoms.Add(kingdomEntity);
                 }
 
-                await _dbContext.SaveChangesAsync().ConfigureAwait(false);
+                await dbContext.SaveChangesAsync(cancellationToken).ConfigureAwait(false);
             }
         }
 
@@ -87,14 +90,14 @@ namespace MoonMissing.Data.Deploy
             return serializer;
         }
 
-        private static async Task<IReadOnlyCollection<MoonData>> LoadJsonMoonData()
+        private static async Task<IReadOnlyCollection<MoonData>> LoadJsonMoonData(CancellationToken cancellationToken)
         {
             using (var fileStream = File.OpenRead("MoonData.json"))
             {
                 var serializer = GetSerializer();
 
                 return await serializer
-                    .DeserializeObjectAsync<IReadOnlyCollection<MoonData>>(fileStream, CancellationToken.None)
+                    .DeserializeObjectAsync<IReadOnlyCollection<MoonData>>(fileStream, cancellationToken)
                     .ConfigureAwait(false);
             }
         }
