@@ -1,20 +1,4 @@
-﻿#region Title Header
-
-// Name: Phillip Smith
-// 
-// Solution: MoonMissing
-// Project: MoonMissing
-// File Name: MainWindowViewModel.cs
-// 
-// Current Data:
-// 2022-01-23 7:00 PM
-// 
-// Creation Date:
-// 2022-01-23 6:58 PM
-
-#endregion
-
-#region usings
+﻿#region usings
 
 using System.Collections.Generic;
 using System.Linq;

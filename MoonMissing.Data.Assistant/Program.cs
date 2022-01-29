@@ -1,16 +1,14 @@
 ﻿#region Title Header
 
-// Name: Phillip Smith
-// 
 // Solution: MoonMissing
 // Project: MoonMissing.Data.Assistant
 // File Name: Program.cs
 // 
 // Current Data:
-// 2022-01-26 12:26 PM
+// 2022-01-30 10:37 AM
 // 
 // Creation Date:
-// 2022-01-26 12:23 PM
+// 2022-01-30 10:32 AM
 
 #endregion
 
@@ -21,10 +19,8 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Text;
-using AllOverIt.Extensions;
 using CsvHelper;
 using MoonMissing.Data.Assistant.Models;
-using Newtonsoft.Json;
 
 #endregion
 

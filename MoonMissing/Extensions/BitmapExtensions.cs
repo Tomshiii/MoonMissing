@@ -1,20 +1,4 @@
-﻿#region Title Header
-
-// Name: Phillip Smith
-// 
-// Solution: MoonMissing
-// Project: MoonMissing
-// File Name: BitmapExtensions.cs
-// 
-// Current Data:
-// 2022-01-22 8:39 PM
-// 
-// Creation Date:
-// 2022-01-22 8:38 PM
-
-#endregion
-
-#region usings
+﻿#region usings
 
 using System.Drawing;
 using System.Drawing.Imaging;

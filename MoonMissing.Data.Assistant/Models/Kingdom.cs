@@ -1,16 +1,14 @@
 ﻿#region Title Header
 
-// Name: Phillip Smith
-// 
 // Solution: MoonMissing
-// Project: MoonMissing
+// Project: MoonMissing.Data.Assistant
 // File Name: Kingdom.cs
 // 
 // Current Data:
-// 2022-01-22 7:56 PM
+// 2022-01-30 10:36 AM
 // 
 // Creation Date:
-// 2022-01-22 7:56 PM
+// 2022-01-30 10:32 AM
 
 #endregion
 
@@ -18,8 +16,6 @@
 
 using System.Runtime.CompilerServices;
 using AllOverIt.Patterns.Enumeration;
-using AllOverIt.Serialization.NewtonsoftJson.Converters;
-using Newtonsoft.Json;
 
 #endregion
 

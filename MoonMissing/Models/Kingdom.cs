@@ -1,20 +1,4 @@
-﻿#region Title Header
-
-// Name: Phillip Smith
-// 
-// Solution: MoonMissing
-// Project: MoonMissing
-// File Name: Kingdom.cs
-// 
-// Current Data:
-// 2022-01-22 7:56 PM
-// 
-// Creation Date:
-// 2022-01-22 7:56 PM
-
-#endregion
-
-#region usings
+﻿#region usings
 
 using System.Runtime.CompilerServices;
 using AllOverIt.Patterns.Enumeration;

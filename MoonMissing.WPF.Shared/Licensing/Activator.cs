@@ -1,19 +1,4 @@
-﻿#region Title Header
-
-// Name: Phillip Smith
-// 
-// Solution: MoonMissing
-// Project: MoonMissing.WPF.Shared
-// File Name: Activator.cs
-// 
-// Current Data:
-// 2022-01-26 11:11 AM
-// 
-// Creation Date:
-// 2022-01-26 9:59 AM
-
-#endregion
-
+﻿
 #region usings
 
 using System.Reflection;

@@ -1,36 +1,20 @@
-﻿#region Title Header
-
-// Name: Phillip Smith
-// 
-// Solution: MoonMissing
-// Project: MoonMissing
-// File Name: ApplicationShell.cs
-// 
-// Current Data:
-// 2022-01-22 7:59 PM
-// 
-// Creation Date:
-// 2022-01-22 4:08 PM
-
-#endregion
-
-#region usings
+﻿#region usings
 
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using MoonMissing.Models;
 using MoonMissing.Resources;
 using MoonMissing.ViewModels;
 using MoonMissing.Views;
 using Newtonsoft.Json;
-using System.IO;
-using System.Text;
 
 #endregion
 
 namespace MoonMissing
 {
-    internal class ApplicationShell
+  internal class ApplicationShell
   {
     private ApplicationShell()
     {

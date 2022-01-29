@@ -1,20 +1,4 @@
-﻿#region Title Header
-
-// Name: Phillip Smith
-// 
-// Solution: MoonMissing
-// Project: MoonMissing
-// File Name: App.xaml.cs
-// 
-// Current Data:
-// 2022-01-22 4:11 PM
-// 
-// Creation Date:
-// 2022-01-22 4:01 PM
-
-#endregion
-
-#region usings
+﻿#region usings
 
 using System.Windows;
 
