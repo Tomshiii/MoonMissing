@@ -11,7 +11,7 @@ using MoonMissing.Data.Deploy;
 namespace MoonMissing.Data.Deploy.Migrations
 {
     [DbContext(typeof(MoonMissingDeployDbContext))]
-    [Migration("20220130010021_Init")]
+    [Migration("20220130012411_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -69,9 +69,11 @@ namespace MoonMissing.Data.Deploy.Migrations
 
             modelBuilder.Entity("MoonMissing.Data.Entities.Moon", b =>
                 {
-                    b.HasOne("MoonMissing.Data.Entities.Kingdom", null)
+                    b.HasOne("MoonMissing.Data.Entities.Kingdom", "Kingdom")
                         .WithMany("Moons")
                         .HasForeignKey("KingdomId");
+
+                    b.Navigation("Kingdom");
                 });
 
             modelBuilder.Entity("MoonMissing.Data.Entities.Kingdom", b =>

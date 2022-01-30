@@ -67,9 +67,11 @@ namespace MoonMissing.Data.Deploy.Migrations
 
             modelBuilder.Entity("MoonMissing.Data.Entities.Moon", b =>
                 {
-                    b.HasOne("MoonMissing.Data.Entities.Kingdom", null)
+                    b.HasOne("MoonMissing.Data.Entities.Kingdom", "Kingdom")
                         .WithMany("Moons")
                         .HasForeignKey("KingdomId");
+
+                    b.Navigation("Kingdom");
                 });
 
             modelBuilder.Entity("MoonMissing.Data.Entities.Kingdom", b =>
