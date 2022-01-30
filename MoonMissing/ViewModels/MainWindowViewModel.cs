@@ -1,28 +1,28 @@
 ﻿#region usings
 
 using System.Collections.Generic;
-using System.Linq;
-using System.Windows.Media.Imaging;
-using AllOverIt.Extensions;
-using MoonMissing.Models;
+using System.Threading.Tasks;
+using MoonMissing.Data.Models;
+using MoonMissing.Data.Repositories;
 
 #endregion
 
 namespace MoonMissing.ViewModels
 {
-  internal class MainWindowViewModel
+  public class MainWindowViewModel
   {
-    private readonly IReadOnlyList<MoonInfoWindowViewModel> _moonWindowViewModels;
-    public BitmapImage Image { get; set; }
+    private readonly IMoonMissingRepository _repository;
 
-    public MainWindowViewModel(IEnumerable<MoonData> moonData)
+    public MainWindowViewModel(IMoonMissingRepository repository)
     {
-      _moonWindowViewModels = moonData
-        .OrderBy(x => x.Kingdom.Value)
-        .ThenBy(x => x.MoonNumber)
-        .GroupBy(x => x.Kingdom.Name)
-        .Select(x => new MoonInfoWindowViewModel(x))
-        .AsReadOnlyList();
+      _repository = repository;
+
+      var kingdoms = GetKingdomsAsync().Result;
+    }
+
+    private async Task<IReadOnlyCollection<KingdomName>> GetKingdomsAsync()
+    {
+      return await _repository.GetKingdomNamesAsync().ConfigureAwait(false);
     }
   }
 }
