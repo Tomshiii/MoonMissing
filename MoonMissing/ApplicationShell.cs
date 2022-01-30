@@ -18,19 +18,19 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using MoonMissing.Models;
 using MoonMissing.Resources;
 using MoonMissing.ViewModels;
 using MoonMissing.Views;
 using Newtonsoft.Json;
-using System.IO;
-using System.Text;
 
 #endregion
 
 namespace MoonMissing
 {
-    internal class ApplicationShell
+  internal class ApplicationShell
   {
     private ApplicationShell()
     {

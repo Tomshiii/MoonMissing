@@ -18,19 +18,19 @@
 
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Windows.Media.Imaging;
 using AllOverIt.Extensions;
 using MoonMissing.Extensions;
 using MoonMissing.Models;
 using MoonMissing.Resources;
-using System.Drawing;
-using System.Linq;
-using System.Windows.Media.Imaging;
 
 #endregion
 
 namespace MoonMissing.ViewModels
 {
-    public class ImageFactory
+  public class ImageFactory
   {
     private readonly ImageConverter _imageConverter = new();
     private readonly IReadOnlyDictionary<int, Func<Bitmap>> _registry;

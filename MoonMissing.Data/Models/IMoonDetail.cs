@@ -1,16 +1,20 @@
-﻿using System.Collections.Generic;
+﻿#region usings
+
+using System.Collections.Generic;
+
+#endregion
 
 namespace MoonMissing.Data.Models
 {
-    public interface IMoonDetail
-    {
-        int Id { get; }
-        int Number { get; }
-        string Name { get; }
-        bool IsRockMoon { get; }
-        bool IsSubAreaMoon { get; }
-        bool IsMultiMoon { get; }
-        string Quadrant { get; }
-        IReadOnlyCollection<IMoonImage> MoonImages { get; }
-    }
+  public interface IMoonDetail
+  {
+    int Id { get; }
+    int Number { get; }
+    string Name { get; }
+    bool IsRockMoon { get; }
+    bool IsSubAreaMoon { get; }
+    bool IsMultiMoon { get; }
+    string Quadrant { get; }
+    IReadOnlyCollection<IMoonImage> MoonImages { get; }
+  }
 }
