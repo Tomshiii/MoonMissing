@@ -1,14 +1,11 @@
 ﻿#region usings
 
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
-using MoonMissing.Models;
-using MoonMissing.Resources;
+using Microsoft.Extensions.DependencyInjection;
+using MoonMissing.Data.Extensions;
 using MoonMissing.ViewModels;
 using MoonMissing.Views;
-using Newtonsoft.Json;
+using Activator = MoonMissing.WPF.Shared.Licensing.Activator;
 
 #endregion
 
@@ -18,44 +15,35 @@ namespace MoonMissing
   {
     private ApplicationShell()
     {
-      var moonData = GetMoonData();
-      //WriteAsCsv(moonData);
+      Activator.ActivateSyncFusion();
 
-      var window = new MainWindowView
-      {
-        DataContext = new MainWindowViewModel(moonData)
-      };
-      window.ShowDialog();
+      var servicesCollection = new ServiceCollection();
+      ConfigureServices(servicesCollection);
+      var provider = servicesCollection.BuildServiceProvider();
+
+      LaunchMainWindow(provider);
 
       Environment.Exit(0);
     }
 
-    public static ApplicationShell NewAppShell()
+    private static void ConfigureServices(IServiceCollection servicesCollection)
+    {
+      servicesCollection.AddRepository(); // Adds dbContext and repository
+      servicesCollection.AddSingleton<MainWindowViewModel>();
+      servicesCollection.AddSingleton<MainWindowView>();
+      servicesCollection.AddSingleton<KingdomInfoWindowViewModel>();
+      servicesCollection.AddSingleton<KingdomMoonsWindowView>();
+    }
+
+    private static void LaunchMainWindow(IServiceProvider serviceProvider)
+    {
+      var window = serviceProvider.GetRequiredService<MainWindowView>();
+      window.ShowDialog();
+    }
+
+    public static ApplicationShell RunApplication()
     {
       return new ApplicationShell();
-    }
-
-    private static IEnumerable<MoonData> GetMoonData()
-    {
-      // NOTE: Check moon.json needs to be EmbeddedResource.
-
-      var fileData = Encoding.Default.GetString(EmbeddedData.MoonData);
-      var moonData = JsonConvert.DeserializeObject<List<MoonData>>(fileData);
-
-      return moonData ?? throw new NullReferenceException("Moon Data did not deserialize");
-    }
-
-    private static void WriteAsCsv(IEnumerable<MoonData> moonData)
-    {
-      var csv = new StringBuilder();
-
-      csv.AppendLine("id,moonNumber,kingdom,moonName,,");
-      foreach (var data in moonData)
-      {
-        csv.AppendLine($"{data.MoonId},{data.MoonNumber},{data.Kingdom.Name},\"{data.MoonName}\",,");
-      }
-
-      File.WriteAllText("CSV_MOONS.csv", csv.ToString());
     }
   }
 }

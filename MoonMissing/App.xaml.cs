@@ -13,7 +13,7 @@ namespace MoonMissing
   {
     private void App_OnStartup(object sender, StartupEventArgs e)
     {
-      ApplicationShell.NewAppShell();
+      ApplicationShell.RunApplication();
     }
   }
 }
