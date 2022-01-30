@@ -25,7 +25,7 @@ namespace MoonMissing.Data.Deploy
 
         public override async Task StartAsync(CancellationToken cancellationToken)
         {
-            using (var dbContext = await _dbContextFactory.CreateDbContextAsync(cancellationToken))
+            await using (var dbContext = await _dbContextFactory.CreateDbContextAsync(cancellationToken))
             {
                 // Just while testing
                 //await dbContext.Database.EnsureDeletedAsync(cancellationToken);
@@ -36,7 +36,7 @@ namespace MoonMissing.Data.Deploy
             }
         }
 
-        private async Task CreateDataIfRequired(MoonMissingDeployDbContext dbContext, CancellationToken cancellationToken)
+        private static async Task CreateDataIfRequired(MoonMissingDeployDbContext dbContext, CancellationToken cancellationToken)
         {
             var haveData = await dbContext.Kingdoms
                 .AnyAsync(cancellationToken)
@@ -92,7 +92,7 @@ namespace MoonMissing.Data.Deploy
 
         private static async Task<IReadOnlyCollection<MoonData>> LoadJsonMoonData(CancellationToken cancellationToken)
         {
-            using (var fileStream = File.OpenRead("MoonData.json"))
+            await using (var fileStream = File.OpenRead("MoonData.json"))
             {
                 var serializer = GetSerializer();
 
