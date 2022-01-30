@@ -6,12 +6,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Content Include="MoonData.json">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </Content>
-	</ItemGroup>
-
-	<ItemGroup>
 	  <PackageReference Include="AllOverIt.GenericHost" Version="2.1.1" />
 	  <PackageReference Include="AllOverIt.Serialization.NewtonsoftJson" Version="1.4.0" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.1">
