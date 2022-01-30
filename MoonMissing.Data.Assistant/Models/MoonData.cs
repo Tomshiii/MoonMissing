@@ -15,6 +15,7 @@
 #region usings
 
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 #endregion
 
@@ -28,10 +29,10 @@ namespace MoonMissing.Data.Assistant.Models
     [JsonProperty("moonNumber")]
     public int MoonNumber { get; set; }
 
-    public int KingdomId => Kingdom.Value;
+    public int KingdomId { get; set; }
 
     [JsonProperty("kingdom")]
-    public Kingdom Kingdom { get; set; }
+    public string Kingdom { get; set; }
 
     [JsonProperty("name")]
     public string MoonName { get; set; }
@@ -53,5 +54,8 @@ namespace MoonMissing.Data.Assistant.Models
 
     [JsonProperty("description")]
     public string Description { get; set; }
+
+    [JsonProperty("imageNames")]
+    public List<string> ImageNames { get; set; }
   }
 }

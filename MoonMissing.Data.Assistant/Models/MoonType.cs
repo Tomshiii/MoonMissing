@@ -16,6 +16,8 @@
 
 #endregion
 
+using Newtonsoft.Json;
+
 namespace MoonMissing.Data.Assistant.Models
 {
   public class MoonType
