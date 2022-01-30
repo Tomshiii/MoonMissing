@@ -11,7 +11,7 @@ using MoonMissing.Data.Deploy;
 namespace MoonMissing.Data.Deploy.Migrations
 {
     [DbContext(typeof(MoonMissingDeployDbContext))]
-    [Migration("20220130030515_Init")]
+    [Migration("20220130050613_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
