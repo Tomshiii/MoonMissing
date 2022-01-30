@@ -3,6 +3,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MoonMissing.Data.Deploy;
 using System.Threading.Tasks;
+using MoonMissing.Data;
+using MoonMissing.Data.Extensions;
 
 class Program
 {
@@ -12,8 +14,12 @@ class Program
             .CreateConsoleHostBuilder()
             .ConfigureServices(services =>
             {
+                // Only required by this deployment app
                 services.AddDbContextFactory<MoonMissingDeployDbContext>();
                 services.AddSingleton<IConsoleApp, App>();
+
+                // Also adds IDbContextFactory<MoonMissingDbContext>
+                services.AddRepository();
             })
             .RunConsoleAsync(options => options.SuppressStatusMessages = true);
     }

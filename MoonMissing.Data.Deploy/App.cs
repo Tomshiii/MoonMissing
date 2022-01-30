@@ -1,4 +1,5 @@
-﻿using AllOverIt.Assertion;
+﻿using System;
+using AllOverIt.Assertion;
 using AllOverIt.Extensions;
 using AllOverIt.GenericHost;
 using AllOverIt.Serialization.Abstractions;
@@ -11,16 +12,19 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using MoonMissing.Data.Repositories;
 
 namespace MoonMissing.Data.Deploy
 {
     internal sealed class App : ConsoleAppBase
     {
         private readonly IDbContextFactory<MoonMissingDeployDbContext> _dbContextFactory;
+        private readonly IMoonMissingRepository _repository;
 
-        public App(IDbContextFactory<MoonMissingDeployDbContext> dbContextFactory)
+        public App(IDbContextFactory<MoonMissingDeployDbContext> dbContextFactory, IMoonMissingRepository repository)
         {
             _dbContextFactory = dbContextFactory.WhenNotNull(nameof(dbContextFactory));
+            _repository = repository.WhenNotNull(nameof(repository));
         }
 
         public override async Task StartAsync(CancellationToken cancellationToken)
@@ -33,6 +37,13 @@ namespace MoonMissing.Data.Deploy
                 await dbContext.Database.MigrateAsync(cancellationToken);
 
                 await CreateDataIfRequired(dbContext, cancellationToken);
+
+                var kingdoms = await _repository.GetKingdomNamesAsync(cancellationToken);
+
+                foreach (var kingdom in kingdoms)
+                {
+                    Console.WriteLine($"{kingdom.Value} - {kingdom.Name}");
+                }
             }
         }
 

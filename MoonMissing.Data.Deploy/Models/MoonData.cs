@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace MoonMissing.Data.Deploy.Models
 {
-    internal sealed record MoonData : IMoonData
+    internal sealed record MoonData
     {
         [JsonProperty("id")]
         public int MoonId { get; init; }
@@ -17,7 +17,7 @@ namespace MoonMissing.Data.Deploy.Models
         public KingdomName KingdomName { get; init; }
 
         [JsonProperty("name")]
-        public string? MoonName { get; init; }
+        public string MoonName { get; init; }
 
         [JsonProperty("isMoonRockMoon")]
         public bool IsRockMoon { get; init; }
