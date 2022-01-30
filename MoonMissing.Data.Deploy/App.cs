@@ -123,7 +123,6 @@ namespace MoonMissing.Data.Deploy
                 {
                   var moonImageEntity = new MoonImageEntity
                   {
-                    //Moon = moonEntity
                     Image = result
                   };
 
