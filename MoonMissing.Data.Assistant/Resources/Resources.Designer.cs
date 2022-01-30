@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MoonMissing.Resources {
+namespace MoonMissing.Data.Assistant.Resources {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace MoonMissing.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class EmbeddedData {
+    internal class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal EmbeddedData() {
+        internal Resources() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace MoonMissing.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MoonMissing.Resources.EmbeddedData", typeof(EmbeddedData).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MoonMissing.Data.Assistant.Resources.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -67,6 +67,18 @@ namespace MoonMissing.Resources {
             get {
                 object obj = ResourceManager.GetObject("MoonData", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to id,moonNumber,kingdom,moonName,,
+        ///1,1,Mushroom,Perched on the Castle Roof,&quot;This moon is found atop the back right side of the castle roof, climb the small spire to grab the moon&quot;,
+        ///2,2,Mushroom,Pops Out of the Tail,&quot;Towards the bottom side of the kingdom, at the end of the little stream that runs through the kingdom you will find a tree with a branch in the shape of a Tanooki tail, throw out and hold cappy on the tail to activate the moon&quot;,
+        ///3,3,Mushroom,Caught Hopping at Peach&apos;s Castle!,&quot;In the flower garden  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string newdata {
+            get {
+                return ResourceManager.GetString("newdata", resourceCulture);
             }
         }
     }

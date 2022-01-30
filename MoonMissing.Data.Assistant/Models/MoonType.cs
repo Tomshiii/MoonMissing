@@ -1,28 +1,26 @@
 ﻿#region Title Header
 
-// Name: Phillip Smith
-// 
 // Solution: MoonMissing
-// Project: MoonMissing
+// Project: MoonMissing.Data.Assistant
 // File Name: MoonType.cs
 // 
 // Current Data:
-// 2022-01-22 4:57 PM
+// 2022-01-30 10:36 AM
 // 
 // Creation Date:
-// 2022-01-22 4:27 PM
+// 2022-01-30 10:32 AM
 
 #endregion
 
 #region usings
 
-using Newtonsoft.Json;
-
 #endregion
 
-namespace MoonMissing.Models
+using Newtonsoft.Json;
+
+namespace MoonMissing.Data.Assistant.Models
 {
-  internal class MoonType
+  public class MoonType
   {
     [JsonProperty("name")]
     public string Name { get; init; }

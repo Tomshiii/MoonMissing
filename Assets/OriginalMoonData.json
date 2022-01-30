@@ -44,7 +44,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": null
   },
   {
@@ -68,7 +68,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": null
   },
   {
@@ -92,7 +92,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": null
   },
   {
@@ -116,7 +116,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": null
   },
   {
@@ -140,7 +140,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": null
   },
   {
@@ -164,7 +164,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": null
   },
   {
@@ -266,7 +266,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -290,7 +290,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Sheep" } ],
+    "moonTypes": [{ "name": "Sheep" }],
     "moonPrerequisites": null
   },
   {
@@ -314,7 +314,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Yoshi" } ],
+    "moonTypes": [{ "name": "Yoshi" }],
     "moonPrerequisites": null
   },
   {
@@ -338,7 +338,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Yoshi" } ],
+    "moonTypes": [{ "name": "Yoshi" }],
     "moonPrerequisites": [
       {
         "id": 13,
@@ -367,7 +367,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Yoshi" } ],
+    "moonTypes": [{ "name": "Yoshi" }],
     "moonPrerequisites": [
       {
         "id": 14,
@@ -396,7 +396,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Goombette" } ],
+    "moonTypes": [{ "name": "Goombette" }],
     "moonPrerequisites": null
   },
   {
@@ -420,7 +420,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Goomba (defender)" } ],
+    "moonTypes": [{ "name": "Goomba (defender)" }],
     "moonPrerequisites": null
   },
   {
@@ -444,7 +444,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": null
   },
   {
@@ -468,7 +468,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Music" } ],
+    "moonTypes": [{ "name": "Music" }],
     "moonPrerequisites": null
   },
   {
@@ -492,7 +492,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": null
   },
   {
@@ -516,7 +516,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -540,7 +540,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 21,
@@ -569,7 +569,7 @@
     "quadrant": "A4",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Picture Match" } ],
+    "moonTypes": [{ "name": "Picture Match" }],
     "moonPrerequisites": null
   },
   {
@@ -593,7 +593,7 @@
     "quadrant": "A4",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Picture Match" } ],
+    "moonTypes": [{ "name": "Picture Match" }],
     "moonPrerequisites": [
       {
         "id": 23,
@@ -646,7 +646,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -725,7 +725,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Yoshi" } ],
+    "moonTypes": [{ "name": "Yoshi" }],
     "moonPrerequisites": null
   },
   {
@@ -773,7 +773,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": null
   },
   {
@@ -797,7 +797,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": null
   },
   {
@@ -983,7 +983,7 @@
     "quadrant": "E3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Warp Painting" } ],
+    "moonTypes": [{ "name": "Warp Painting" }],
     "moonPrerequisites": [
       {
         "id": 635,
@@ -1012,7 +1012,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Tourist" } ],
+    "moonTypes": [{ "name": "Tourist" }],
     "moonPrerequisites": [
       {
         "id": 798,
@@ -1068,7 +1068,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Hat-and-Seek" } ],
+    "moonTypes": [{ "name": "Hat-and-Seek" }],
     "moonPrerequisites": null
   },
   {
@@ -1092,7 +1092,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -1170,7 +1170,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1194,7 +1194,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1218,7 +1218,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1242,7 +1242,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1266,7 +1266,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1290,7 +1290,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1314,7 +1314,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1338,7 +1338,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1362,7 +1362,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1386,7 +1386,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1410,7 +1410,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1434,7 +1434,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1458,7 +1458,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1482,7 +1482,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1506,7 +1506,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1530,7 +1530,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1554,7 +1554,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1578,7 +1578,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1602,7 +1602,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1626,7 +1626,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1650,7 +1650,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1674,7 +1674,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1698,7 +1698,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1722,7 +1722,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1746,7 +1746,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1770,7 +1770,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1794,7 +1794,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1818,7 +1818,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1842,7 +1842,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1866,7 +1866,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1890,7 +1890,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1914,7 +1914,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1938,7 +1938,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1962,7 +1962,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -1986,7 +1986,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2010,7 +2010,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2034,7 +2034,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2058,7 +2058,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2082,7 +2082,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2106,7 +2106,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2130,7 +2130,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2154,7 +2154,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2178,7 +2178,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2202,7 +2202,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2226,7 +2226,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2250,7 +2250,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2274,7 +2274,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2298,7 +2298,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2322,7 +2322,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2346,7 +2346,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2370,7 +2370,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2394,7 +2394,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2418,7 +2418,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2442,7 +2442,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2466,7 +2466,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2490,7 +2490,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2514,7 +2514,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2538,7 +2538,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2562,7 +2562,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 1,
-    "moonTypes": [ { "name": "Achievement" } ],
+    "moonTypes": [{ "name": "Achievement" }],
     "moonPrerequisites": null
   },
   {
@@ -2661,7 +2661,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": null
   },
   {
@@ -2685,7 +2685,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": null
   },
   {
@@ -2709,7 +2709,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": null
   },
   {
@@ -2805,7 +2805,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": null
   },
   {
@@ -2853,7 +2853,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -2877,7 +2877,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Binoculars" } ],
+    "moonTypes": [{ "name": "Binoculars" }],
     "moonPrerequisites": null
   },
   {
@@ -2901,7 +2901,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Goomba (defender)" } ],
+    "moonTypes": [{ "name": "Goomba (defender)" }],
     "moonPrerequisites": null
   },
   {
@@ -2925,7 +2925,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -2949,7 +2949,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -3120,7 +3120,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": null
   },
   {
@@ -3144,7 +3144,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -3168,7 +3168,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Bird" } ],
+    "moonTypes": [{ "name": "Bird" }],
     "moonPrerequisites": null
   },
   {
@@ -3192,7 +3192,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": null
   },
   {
@@ -3216,7 +3216,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -3268,7 +3268,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 2,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 119,
@@ -3345,7 +3345,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": null
   },
   {
@@ -3369,7 +3369,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": [
       {
         "id": 136,
@@ -3427,7 +3427,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": [
       {
         "id": 136,
@@ -3485,7 +3485,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": [
       {
         "id": 137,
@@ -3636,7 +3636,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": [
       {
         "id": 137,
@@ -3694,7 +3694,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": [
       {
         "id": 137,
@@ -3810,7 +3810,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": [
       {
         "id": 137,
@@ -3839,7 +3839,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Warp Painting" } ],
+    "moonTypes": [{ "name": "Warp Painting" }],
     "moonPrerequisites": null
   },
   {
@@ -3863,7 +3863,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Tourist" } ],
+    "moonTypes": [{ "name": "Tourist" }],
     "moonPrerequisites": [
       {
         "id": 478,
@@ -3892,7 +3892,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Rolling Rock" } ],
+    "moonTypes": [{ "name": "Rolling Rock" }],
     "moonPrerequisites": null
   },
   {
@@ -3916,7 +3916,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -3940,7 +3940,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -3964,7 +3964,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": null
   },
   {
@@ -3988,7 +3988,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": null
   },
   {
@@ -4012,7 +4012,7 @@
     "quadrant": "E4",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Binoculars" } ],
+    "moonTypes": [{ "name": "Binoculars" }],
     "moonPrerequisites": null
   },
   {
@@ -4036,7 +4036,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -4132,7 +4132,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": null
   },
   {
@@ -4156,7 +4156,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -4180,7 +4180,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -4204,7 +4204,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": null
   },
   {
@@ -4228,7 +4228,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": null
   },
   {
@@ -4279,7 +4279,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 157,
@@ -4380,7 +4380,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 3,
-    "moonTypes": [ { "name": "Lever" } ],
+    "moonTypes": [{ "name": "Lever" }],
     "moonPrerequisites": null
   },
   {
@@ -4428,7 +4428,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": [
       {
         "id": 176,
@@ -4457,7 +4457,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": [
       {
         "id": 177,
@@ -4486,7 +4486,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": [
       {
         "id": 178,
@@ -4611,7 +4611,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": null
   },
   {
@@ -4635,7 +4635,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": [
       {
         "id": 177,
@@ -4688,7 +4688,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Crate" } ],
+    "moonTypes": [{ "name": "Crate" }],
     "moonPrerequisites": null
   },
   {
@@ -4736,7 +4736,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": [
       {
         "id": 177,
@@ -4765,7 +4765,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": [
       {
         "id": 179,
@@ -4794,7 +4794,7 @@
     "quadrant": "E4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -4818,7 +4818,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -4842,7 +4842,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -4895,7 +4895,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": null
   },
   {
@@ -4919,7 +4919,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Bird" } ],
+    "moonTypes": [{ "name": "Bird" }],
     "moonPrerequisites": null
   },
   {
@@ -4943,7 +4943,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Bird" } ],
+    "moonTypes": [{ "name": "Bird" }],
     "moonPrerequisites": [
       {
         "id": 179,
@@ -5004,7 +5004,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -5028,7 +5028,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": null
   },
   {
@@ -5052,7 +5052,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": null
   },
   {
@@ -5076,7 +5076,7 @@
     "quadrant": "D1",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": null
   },
   {
@@ -5228,7 +5228,7 @@
     "quadrant": "E4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -5252,7 +5252,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Sheep" } ],
+    "moonTypes": [{ "name": "Sheep" }],
     "moonPrerequisites": null
   },
   {
@@ -5276,7 +5276,7 @@
     "quadrant": "E4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Fishing" } ],
+    "moonTypes": [{ "name": "Fishing" }],
     "moonPrerequisites": [
       {
         "id": 179,
@@ -5305,7 +5305,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Goombette" } ],
+    "moonTypes": [{ "name": "Goombette" }],
     "moonPrerequisites": [
       {
         "id": 179,
@@ -5448,7 +5448,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -5472,7 +5472,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Sphynx" } ],
+    "moonTypes": [{ "name": "Sphynx" }],
     "moonPrerequisites": null
   },
   {
@@ -5496,7 +5496,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": null
   },
   {
@@ -5544,7 +5544,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Slots" } ],
+    "moonTypes": [{ "name": "Slots" }],
     "moonPrerequisites": null
   },
   {
@@ -5568,7 +5568,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Tracewalking" } ],
+    "moonTypes": [{ "name": "Tracewalking" }],
     "moonPrerequisites": null
   },
   {
@@ -5592,7 +5592,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": [
       {
         "id": 177,
@@ -5621,7 +5621,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": [
       {
         "id": 178,
@@ -5759,7 +5759,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -5783,7 +5783,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": null
   },
   {
@@ -5831,7 +5831,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": null
   },
   {
@@ -5927,7 +5927,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -6009,7 +6009,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Warp Painting" } ],
+    "moonTypes": [{ "name": "Warp Painting" }],
     "moonPrerequisites": [
       {
         "id": 265,
@@ -6070,7 +6070,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Music" } ],
+    "moonTypes": [{ "name": "Music" }],
     "moonPrerequisites": null
   },
   {
@@ -6094,7 +6094,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Hat-and-Seek" } ],
+    "moonTypes": [{ "name": "Hat-and-Seek" }],
     "moonPrerequisites": null
   },
   {
@@ -6118,7 +6118,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -6142,7 +6142,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -6166,7 +6166,7 @@
     "quadrant": "E3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Tourist" } ],
+    "moonTypes": [{ "name": "Tourist" }],
     "moonPrerequisites": [
       {
         "id": 40,
@@ -6195,7 +6195,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -6339,7 +6339,7 @@
     "quadrant": "C1",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -6363,7 +6363,7 @@
     "quadrant": "C5",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": null
   },
   {
@@ -6387,7 +6387,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": null
   },
   {
@@ -6435,7 +6435,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -6486,7 +6486,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Goombette" } ],
+    "moonTypes": [{ "name": "Goombette" }],
     "moonPrerequisites": null
   },
   {
@@ -6510,7 +6510,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Tracewalking" } ],
+    "moonTypes": [{ "name": "Tracewalking" }],
     "moonPrerequisites": [
       {
         "id": 220,
@@ -6539,7 +6539,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 241,
@@ -6592,7 +6592,7 @@
     "quadrant": "E3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": null
   },
   {
@@ -6640,7 +6640,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 4,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": null
   },
   {
@@ -6712,7 +6712,7 @@
     "quadrant": null,
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": null
   },
   {
@@ -6808,7 +6808,7 @@
     "quadrant": "C1",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Crate" } ],
+    "moonTypes": [{ "name": "Crate" }],
     "moonPrerequisites": null
   },
   {
@@ -6832,7 +6832,7 @@
     "quadrant": "D4",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -6856,7 +6856,7 @@
     "quadrant": "C2",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -6880,7 +6880,7 @@
     "quadrant": "A3",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -6904,7 +6904,7 @@
     "quadrant": "B4",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": [
       {
         "id": 265,
@@ -6997,7 +6997,7 @@
     "quadrant": "B2",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": null
   },
   {
@@ -7021,7 +7021,7 @@
     "quadrant": "C4",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -7072,7 +7072,7 @@
     "quadrant": "C3",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Fishing" } ],
+    "moonTypes": [{ "name": "Fishing" }],
     "moonPrerequisites": [
       {
         "id": 265,
@@ -7101,7 +7101,7 @@
     "quadrant": "C2",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "I Met a..." } ],
+    "moonTypes": [{ "name": "I Met a..." }],
     "moonPrerequisites": [
       {
         "id": 265,
@@ -7154,7 +7154,7 @@
     "quadrant": "B1",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": null
   },
   {
@@ -7178,7 +7178,7 @@
     "quadrant": "B1",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": null
   },
   {
@@ -7202,7 +7202,7 @@
     "quadrant": "C2",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Puzzle" } ],
+    "moonTypes": [{ "name": "Puzzle" }],
     "moonPrerequisites": [
       {
         "id": 265,
@@ -7258,7 +7258,7 @@
     "quadrant": "B2",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": null
   },
   {
@@ -7330,7 +7330,7 @@
     "quadrant": "A1",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -7413,7 +7413,7 @@
     "quadrant": "D4",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Binoculars" } ],
+    "moonTypes": [{ "name": "Binoculars" }],
     "moonPrerequisites": null
   },
   {
@@ -7437,7 +7437,7 @@
     "quadrant": "B1",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": null
   },
   {
@@ -7461,7 +7461,7 @@
     "quadrant": "B1",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": null
   },
   {
@@ -7485,7 +7485,7 @@
     "quadrant": "B1",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": null
   },
   {
@@ -7509,7 +7509,7 @@
     "quadrant": "C4",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -7533,7 +7533,7 @@
     "quadrant": "B2",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -7629,7 +7629,7 @@
     "quadrant": "B1",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -7653,7 +7653,7 @@
     "quadrant": "C4",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Bird" } ],
+    "moonTypes": [{ "name": "Bird" }],
     "moonPrerequisites": null
   },
   {
@@ -7677,7 +7677,7 @@
     "quadrant": "D4",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Goombette" } ],
+    "moonTypes": [{ "name": "Goombette" }],
     "moonPrerequisites": null
   },
   {
@@ -7701,7 +7701,7 @@
     "quadrant": "C4",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 296,
@@ -7754,7 +7754,7 @@
     "quadrant": "D5",
     "orderBit": 1,
     "kingdomOrder": 5,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": null
   },
   {
@@ -7802,7 +7802,7 @@
     "quadrant": "B3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": [
       {
         "id": 307,
@@ -7860,7 +7860,7 @@
     "quadrant": "A3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": [
       {
         "id": 309,
@@ -7918,7 +7918,7 @@
     "quadrant": "B4",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": [
       {
         "id": 308,
@@ -7947,7 +7947,7 @@
     "quadrant": "D2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Rolling Rock" } ],
+    "moonTypes": [{ "name": "Rolling Rock" }],
     "moonPrerequisites": null
   },
   {
@@ -7971,7 +7971,7 @@
     "quadrant": "D2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": null
   },
   {
@@ -7995,7 +7995,7 @@
     "quadrant": "C2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": [
       {
         "id": 308,
@@ -8024,7 +8024,7 @@
     "quadrant": "D4",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": null
   },
   {
@@ -8048,7 +8048,7 @@
     "quadrant": "C3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": null
   },
   {
@@ -8072,7 +8072,7 @@
     "quadrant": "C4",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": null
   },
   {
@@ -8096,7 +8096,7 @@
     "quadrant": "C2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": null
   },
   {
@@ -8120,7 +8120,7 @@
     "quadrant": "C3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": null
   },
   {
@@ -8144,7 +8144,7 @@
     "quadrant": "B3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": null
   },
   {
@@ -8168,7 +8168,7 @@
     "quadrant": "B4",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": null
   },
   {
@@ -8192,7 +8192,7 @@
     "quadrant": "A3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": [
       {
         "id": 307,
@@ -8221,7 +8221,7 @@
     "quadrant": "C3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": [
       {
         "id": 308,
@@ -8250,7 +8250,7 @@
     "quadrant": "B4",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Scarecrow" } ],
+    "moonTypes": [{ "name": "Scarecrow" }],
     "moonPrerequisites": null
   },
   {
@@ -8274,7 +8274,7 @@
     "quadrant": "C5",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": [
       {
         "id": 310,
@@ -8303,7 +8303,7 @@
     "quadrant": "D2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Goombette" } ],
+    "moonTypes": [{ "name": "Goombette" }],
     "moonPrerequisites": [
       {
         "id": 308,
@@ -8332,7 +8332,7 @@
     "quadrant": "D2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": [
       {
         "id": 310,
@@ -8361,7 +8361,7 @@
     "quadrant": "D3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": null
   },
   {
@@ -8385,7 +8385,7 @@
     "quadrant": "B3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": [
       {
         "id": 307,
@@ -8443,7 +8443,7 @@
     "quadrant": "C4",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": [
       {
         "id": 308,
@@ -8556,7 +8556,7 @@
     "quadrant": "E5",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Deep Woods" } ],
+    "moonTypes": [{ "name": "Deep Woods" }],
     "moonPrerequisites": null
   },
   {
@@ -8636,7 +8636,7 @@
     "quadrant": "E5",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Deep Woods" } ],
+    "moonTypes": [{ "name": "Deep Woods" }],
     "moonPrerequisites": null
   },
   {
@@ -8855,7 +8855,7 @@
     "quadrant": "C2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": [
       {
         "id": 308,
@@ -8884,7 +8884,7 @@
     "quadrant": "C2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": [
       {
         "id": 308,
@@ -9000,7 +9000,7 @@
     "quadrant": "C4",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": [
       {
         "id": 308,
@@ -9087,7 +9087,7 @@
     "quadrant": "C3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Warp Painting" } ],
+    "moonTypes": [{ "name": "Warp Painting" }],
     "moonPrerequisites": null
   },
   {
@@ -9143,7 +9143,7 @@
     "quadrant": "A3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": null
   },
   {
@@ -9167,7 +9167,7 @@
     "quadrant": "D3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Music" } ],
+    "moonTypes": [{ "name": "Music" }],
     "moonPrerequisites": null
   },
   {
@@ -9191,7 +9191,7 @@
     "quadrant": "C2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -9215,7 +9215,7 @@
     "quadrant": "C4",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -9263,7 +9263,7 @@
     "quadrant": "D3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Crate" } ],
+    "moonTypes": [{ "name": "Crate" }],
     "moonPrerequisites": null
   },
   {
@@ -9287,7 +9287,7 @@
     "quadrant": "D3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": null
   },
   {
@@ -9311,7 +9311,7 @@
     "quadrant": "B3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": null
   },
   {
@@ -9335,7 +9335,7 @@
     "quadrant": "C2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": null
   },
   {
@@ -9383,7 +9383,7 @@
     "quadrant": "C4",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Nut" } ],
+    "moonTypes": [{ "name": "Nut" }],
     "moonPrerequisites": null
   },
   {
@@ -9407,7 +9407,7 @@
     "quadrant": "B3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Bird" } ],
+    "moonTypes": [{ "name": "Bird" }],
     "moonPrerequisites": null
   },
   {
@@ -9506,7 +9506,7 @@
     "quadrant": "B3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": null
   },
   {
@@ -9530,7 +9530,7 @@
     "quadrant": "E3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -9554,7 +9554,7 @@
     "quadrant": "C3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -9578,7 +9578,7 @@
     "quadrant": "C2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 359,
@@ -9607,7 +9607,7 @@
     "quadrant": "A3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "I Met a..." } ],
+    "moonTypes": [{ "name": "I Met a..." }],
     "moonPrerequisites": null
   },
   {
@@ -9655,7 +9655,7 @@
     "quadrant": "B3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -9679,7 +9679,7 @@
     "quadrant": "D2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Sheep" } ],
+    "moonTypes": [{ "name": "Sheep" }],
     "moonPrerequisites": null
   },
   {
@@ -9703,7 +9703,7 @@
     "quadrant": "D2",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Sheep" } ],
+    "moonTypes": [{ "name": "Sheep" }],
     "moonPrerequisites": null
   },
   {
@@ -9727,7 +9727,7 @@
     "quadrant": "B3",
     "orderBit": 1,
     "kingdomOrder": 6,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": null
   },
   {
@@ -9775,7 +9775,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 7,
-    "moonTypes": [ { "name": "Picture Match" } ],
+    "moonTypes": [{ "name": "Picture Match" }],
     "moonPrerequisites": null
   },
   {
@@ -9799,7 +9799,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 7,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -9823,7 +9823,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 7,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -9871,7 +9871,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 7,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": null
   },
   {
@@ -9895,7 +9895,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 7,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -9919,7 +9919,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 7,
-    "moonTypes": [ { "name": "Picture Match" } ],
+    "moonTypes": [{ "name": "Picture Match" }],
     "moonPrerequisites": [
       {
         "id": 383,
@@ -9948,7 +9948,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 7,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": null
   },
   {
@@ -9972,7 +9972,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 7,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": null
   },
   {
@@ -10116,7 +10116,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": null
   },
   {
@@ -10188,7 +10188,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -10212,7 +10212,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -10236,7 +10236,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": null
   },
   {
@@ -10284,7 +10284,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": null
   },
   {
@@ -10332,7 +10332,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": null
   },
   {
@@ -10380,7 +10380,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": null
   },
   {
@@ -10452,7 +10452,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": null
   },
   {
@@ -10476,7 +10476,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": null
   },
   {
@@ -10500,7 +10500,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Binoculars" } ],
+    "moonTypes": [{ "name": "Binoculars" }],
     "moonPrerequisites": null
   },
   {
@@ -10524,7 +10524,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "I Met a..." } ],
+    "moonTypes": [{ "name": "I Met a..." }],
     "moonPrerequisites": null
   },
   {
@@ -10548,7 +10548,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -10572,7 +10572,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -10644,7 +10644,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": null
   },
   {
@@ -10668,7 +10668,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -10692,7 +10692,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 415,
@@ -10772,7 +10772,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Torch" } ],
+    "moonTypes": [{ "name": "Torch" }],
     "moonPrerequisites": null
   },
   {
@@ -10796,7 +10796,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 8,
-    "moonTypes": [ { "name": "Lever" } ],
+    "moonTypes": [{ "name": "Lever" }],
     "moonPrerequisites": null
   },
   {
@@ -10844,7 +10844,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": null
   },
   {
@@ -11213,7 +11213,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -11242,7 +11242,7 @@
     "quadrant": "A5",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -11271,7 +11271,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -11300,7 +11300,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": [
       {
         "id": 433,
@@ -11422,7 +11422,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -11451,7 +11451,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -11480,7 +11480,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -11509,7 +11509,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -11538,7 +11538,7 @@
     "quadrant": "A4",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Parking" } ],
+    "moonTypes": [{ "name": "Parking" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -11596,7 +11596,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": null
   },
   {
@@ -11620,7 +11620,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Slots" } ],
+    "moonTypes": [{ "name": "Slots" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -11707,7 +11707,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "RC Car" } ],
+    "moonTypes": [{ "name": "RC Car" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -11736,7 +11736,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "RC Car" } ],
+    "moonTypes": [{ "name": "RC Car" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -11797,7 +11797,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -11862,7 +11862,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": [
       {
         "id": 432,
@@ -12016,7 +12016,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -12045,7 +12045,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -12074,7 +12074,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": [
       {
         "id": 427,
@@ -12306,7 +12306,7 @@
     "quadrant": "E5",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Warp Painting" } ],
+    "moonTypes": [{ "name": "Warp Painting" }],
     "moonPrerequisites": null
   },
   {
@@ -12330,7 +12330,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Tourist" } ],
+    "moonTypes": [{ "name": "Tourist" }],
     "moonPrerequisites": [
       {
         "id": 433,
@@ -12391,7 +12391,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Bird" } ],
+    "moonTypes": [{ "name": "Bird" }],
     "moonPrerequisites": null
   },
   {
@@ -12439,7 +12439,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": null
   },
   {
@@ -12487,7 +12487,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Music" } ],
+    "moonTypes": [{ "name": "Music" }],
     "moonPrerequisites": null
   },
   {
@@ -12511,7 +12511,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Binoculars" } ],
+    "moonTypes": [{ "name": "Binoculars" }],
     "moonPrerequisites": null
   },
   {
@@ -12535,7 +12535,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Parking" } ],
+    "moonTypes": [{ "name": "Parking" }],
     "moonPrerequisites": null
   },
   {
@@ -12559,7 +12559,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -12583,7 +12583,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Hat-and-Seek" } ],
+    "moonTypes": [{ "name": "Hat-and-Seek" }],
     "moonPrerequisites": null
   },
   {
@@ -12607,7 +12607,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Puzzle" } ],
+    "moonTypes": [{ "name": "Puzzle" }],
     "moonPrerequisites": null
   },
   {
@@ -12631,7 +12631,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": null
   },
   {
@@ -12655,7 +12655,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": null
   },
   {
@@ -12679,7 +12679,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -12751,7 +12751,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Crate" } ],
+    "moonTypes": [{ "name": "Crate" }],
     "moonPrerequisites": null
   },
   {
@@ -12775,7 +12775,7 @@
     "quadrant": "A5",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Bird" } ],
+    "moonTypes": [{ "name": "Bird" }],
     "moonPrerequisites": null
   },
   {
@@ -12853,7 +12853,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "RC Car" } ],
+    "moonTypes": [{ "name": "RC Car" }],
     "moonPrerequisites": null
   },
   {
@@ -12877,7 +12877,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 487,
@@ -12906,7 +12906,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Hat-and-Seek" } ],
+    "moonTypes": [{ "name": "Hat-and-Seek" }],
     "moonPrerequisites": null
   },
   {
@@ -12954,7 +12954,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -13002,7 +13002,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 9,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": null
   },
   {
@@ -13259,7 +13259,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -13283,7 +13283,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -13307,7 +13307,7 @@
     "quadrant": "D3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": [
       {
         "id": 512,
@@ -13336,7 +13336,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -13360,7 +13360,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -13448,7 +13448,7 @@
     "quadrant": "D3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": [
       {
         "id": 512,
@@ -13477,7 +13477,7 @@
     "quadrant": "B2",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": [
       {
         "id": 512,
@@ -13506,7 +13506,7 @@
     "quadrant": "D5",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Fishing" } ],
+    "moonTypes": [{ "name": "Fishing" }],
     "moonPrerequisites": [
       {
         "id": 512,
@@ -13535,7 +13535,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Goomba (stack)" } ],
+    "moonTypes": [{ "name": "Goomba (stack)" }],
     "moonPrerequisites": null
   },
   {
@@ -13559,7 +13559,7 @@
     "quadrant": "A3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": null
   },
   {
@@ -13583,7 +13583,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": [
       {
         "id": 512,
@@ -13612,7 +13612,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": null
   },
   {
@@ -13636,7 +13636,7 @@
     "quadrant": "B4",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Tracewalking" } ],
+    "moonTypes": [{ "name": "Tracewalking" }],
     "moonPrerequisites": [
       {
         "id": 512,
@@ -13752,7 +13752,7 @@
     "quadrant": "C3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Scarecrow" } ],
+    "moonTypes": [{ "name": "Scarecrow" }],
     "moonPrerequisites": [
       {
         "id": 512,
@@ -13781,7 +13781,7 @@
     "quadrant": "C3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Scarecrow" } ],
+    "moonTypes": [{ "name": "Scarecrow" }],
     "moonPrerequisites": [
       {
         "id": 512,
@@ -13810,7 +13810,7 @@
     "quadrant": "D2",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Puzzle" } ],
+    "moonTypes": [{ "name": "Puzzle" }],
     "moonPrerequisites": [
       {
         "id": 512,
@@ -14005,7 +14005,7 @@
     "quadrant": "B2",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -14029,7 +14029,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Hat-and-Seek" } ],
+    "moonTypes": [{ "name": "Hat-and-Seek" }],
     "moonPrerequisites": null
   },
   {
@@ -14053,7 +14053,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -14197,7 +14197,7 @@
     "quadrant": "C3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -14221,7 +14221,7 @@
     "quadrant": "B4",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -14245,7 +14245,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -14296,7 +14296,7 @@
     "quadrant": "B4",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Timer" } ],
+    "moonTypes": [{ "name": "Timer" }],
     "moonPrerequisites": null
   },
   {
@@ -14320,7 +14320,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Goomba (stack)" } ],
+    "moonTypes": [{ "name": "Goomba (stack)" }],
     "moonPrerequisites": null
   },
   {
@@ -14344,7 +14344,7 @@
     "quadrant": "B2",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "I Met a..." } ],
+    "moonTypes": [{ "name": "I Met a..." }],
     "moonPrerequisites": null
   },
   {
@@ -14368,7 +14368,7 @@
     "quadrant": "B4",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Tracewalking" } ],
+    "moonTypes": [{ "name": "Tracewalking" }],
     "moonPrerequisites": [
       {
         "id": 529,
@@ -14397,7 +14397,7 @@
     "quadrant": "B2",
     "orderBit": 2,
     "kingdomOrder": 10,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 542,
@@ -14618,7 +14618,7 @@
     "quadrant": "C3",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": [
       {
         "id": 563,
@@ -14707,7 +14707,7 @@
     "quadrant": "C2",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": null
   },
   {
@@ -14731,7 +14731,7 @@
     "quadrant": "C2",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": null
   },
   {
@@ -14904,7 +14904,7 @@
     "quadrant": "B4",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -14928,7 +14928,7 @@
     "quadrant": "C4",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -14952,7 +14952,7 @@
     "quadrant": "D5",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -14976,7 +14976,7 @@
     "quadrant": "A3",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -15027,7 +15027,7 @@
     "quadrant": "C3",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -15078,7 +15078,7 @@
     "quadrant": "D2",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": null
   },
   {
@@ -15102,7 +15102,7 @@
     "quadrant": "D4",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": null
   },
   {
@@ -15126,7 +15126,7 @@
     "quadrant": "B4",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": null
   },
   {
@@ -15150,7 +15150,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Seed" } ],
+    "moonTypes": [{ "name": "Seed" }],
     "moonPrerequisites": null
   },
   {
@@ -15292,7 +15292,7 @@
     "quadrant": "D2",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -15316,7 +15316,7 @@
     "quadrant": "E4",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Goombette" } ],
+    "moonTypes": [{ "name": "Goombette" }],
     "moonPrerequisites": null
   },
   {
@@ -15340,7 +15340,7 @@
     "quadrant": "C3",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "I Met a..." } ],
+    "moonTypes": [{ "name": "I Met a..." }],
     "moonPrerequisites": [
       {
         "id": 567,
@@ -15369,7 +15369,7 @@
     "quadrant": "E4",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": null
   },
   {
@@ -15393,7 +15393,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Sphynx" } ],
+    "moonTypes": [{ "name": "Sphynx" }],
     "moonPrerequisites": null
   },
   {
@@ -15417,7 +15417,7 @@
     "quadrant": "C1",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": null
   },
   {
@@ -15550,7 +15550,7 @@
     "quadrant": "E3",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -15574,7 +15574,7 @@
     "quadrant": "D2",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": null
   },
   {
@@ -15622,7 +15622,7 @@
     "quadrant": "D2",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -15670,7 +15670,7 @@
     "quadrant": "E1",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -15796,7 +15796,7 @@
     "quadrant": "B4",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -15820,7 +15820,7 @@
     "quadrant": "C3",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -15988,7 +15988,7 @@
     "quadrant": "C2",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": null
   },
   {
@@ -16012,7 +16012,7 @@
     "quadrant": "B3",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": null
   },
   {
@@ -16036,7 +16036,7 @@
     "quadrant": "B2",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -16060,7 +16060,7 @@
     "quadrant": "D2",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Bird" } ],
+    "moonTypes": [{ "name": "Bird" }],
     "moonPrerequisites": null
   },
   {
@@ -16084,7 +16084,7 @@
     "quadrant": "C3",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": null
   },
   {
@@ -16162,7 +16162,7 @@
     "quadrant": "C3",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -16186,7 +16186,7 @@
     "quadrant": "B4",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 613,
@@ -16239,7 +16239,7 @@
     "quadrant": "C4",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": null
   },
   {
@@ -16263,7 +16263,7 @@
     "quadrant": "B1",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": null
   },
   {
@@ -16287,7 +16287,7 @@
     "quadrant": "B1",
     "orderBit": 2,
     "kingdomOrder": 11,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -16311,7 +16311,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": null
   },
   {
@@ -16335,7 +16335,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Lever" } ],
+    "moonTypes": [{ "name": "Lever" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -16393,7 +16393,7 @@
     "quadrant": "C1",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Torch" } ],
+    "moonTypes": [{ "name": "Torch" }],
     "moonPrerequisites": [
       {
         "id": 636,
@@ -16422,7 +16422,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": [
       {
         "id": 637,
@@ -16528,7 +16528,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Crate" } ],
+    "moonTypes": [{ "name": "Crate" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -16557,7 +16557,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -16586,7 +16586,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": [
       {
         "id": 635,
@@ -16615,7 +16615,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -16644,7 +16644,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -16673,7 +16673,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Torch" } ],
+    "moonTypes": [{ "name": "Torch" }],
     "moonPrerequisites": [
       {
         "id": 635,
@@ -16702,7 +16702,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Turnip" } ],
+    "moonTypes": [{ "name": "Turnip" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -16731,7 +16731,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Turnip" } ],
+    "moonTypes": [{ "name": "Turnip" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -16760,7 +16760,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Turnip" } ],
+    "moonTypes": [{ "name": "Turnip" }],
     "moonPrerequisites": [
       {
         "id": 635,
@@ -16882,7 +16882,7 @@
     "quadrant": "A5",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": [
       {
         "id": 635,
@@ -16940,7 +16940,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": [
       {
         "id": 635,
@@ -16969,7 +16969,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Goombette" } ],
+    "moonTypes": [{ "name": "Goombette" }],
     "moonPrerequisites": null
   },
   {
@@ -16993,7 +16993,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -17022,7 +17022,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Slots" } ],
+    "moonTypes": [{ "name": "Slots" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -17051,7 +17051,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -17080,7 +17080,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -17138,7 +17138,7 @@
     "quadrant": "E2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": [
       {
         "id": 636,
@@ -17167,7 +17167,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Torch" } ],
+    "moonTypes": [{ "name": "Torch" }],
     "moonPrerequisites": [
       {
         "id": 636,
@@ -17196,7 +17196,7 @@
     "quadrant": "B1",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Torch" } ],
+    "moonTypes": [{ "name": "Torch" }],
     "moonPrerequisites": [
       {
         "id": 637,
@@ -17225,7 +17225,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": [
       {
         "id": 637,
@@ -17254,7 +17254,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": [
       {
         "id": 636,
@@ -17283,7 +17283,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": [
       {
         "id": 638,
@@ -17312,7 +17312,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": [
       {
         "id": 638,
@@ -17341,7 +17341,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -17515,7 +17515,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -17573,7 +17573,7 @@
     "quadrant": "A4",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Scarecrow" } ],
+    "moonTypes": [{ "name": "Scarecrow" }],
     "moonPrerequisites": [
       {
         "id": 635,
@@ -17634,7 +17634,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Warp Painting" } ],
+    "moonTypes": [{ "name": "Warp Painting" }],
     "moonPrerequisites": [
       {
         "id": 634,
@@ -17663,7 +17663,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Tourist" } ],
+    "moonTypes": [{ "name": "Tourist" }],
     "moonPrerequisites": [
       {
         "id": 154,
@@ -17728,7 +17728,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Torch" } ],
+    "moonTypes": [{ "name": "Torch" }],
     "moonPrerequisites": null
   },
   {
@@ -17752,7 +17752,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Music" } ],
+    "moonTypes": [{ "name": "Music" }],
     "moonPrerequisites": null
   },
   {
@@ -17776,7 +17776,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": null
   },
   {
@@ -17824,7 +17824,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Hat-and-Seek" } ],
+    "moonTypes": [{ "name": "Hat-and-Seek" }],
     "moonPrerequisites": null
   },
   {
@@ -17848,7 +17848,7 @@
     "quadrant": "B1",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -17872,7 +17872,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -17896,7 +17896,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -17968,7 +17968,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -17992,7 +17992,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -18016,7 +18016,7 @@
     "quadrant": "B1",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 688,
@@ -18069,7 +18069,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 12,
-    "moonTypes": [ { "name": "Torch" } ],
+    "moonTypes": [{ "name": "Torch" }],
     "moonPrerequisites": null
   },
   {
@@ -18189,7 +18189,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 13,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": null
   },
   {
@@ -18213,7 +18213,7 @@
     "quadrant": "E4",
     "orderBit": null,
     "kingdomOrder": 13,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": null
   },
   {
@@ -18266,7 +18266,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 13,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": [
       {
         "id": 702,
@@ -18295,7 +18295,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 13,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -18319,7 +18319,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 13,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": null
   },
   {
@@ -18343,7 +18343,7 @@
     "quadrant": "E4",
     "orderBit": null,
     "kingdomOrder": 13,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -18367,7 +18367,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 13,
-    "moonTypes": [ { "name": "Rolling Rock" } ],
+    "moonTypes": [{ "name": "Rolling Rock" }],
     "moonPrerequisites": null
   },
   {
@@ -18463,7 +18463,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": [
       {
         "id": 712,
@@ -18492,7 +18492,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": [
       {
         "id": 713,
@@ -18521,7 +18521,7 @@
     "quadrant": "A5",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": [
       {
         "id": 714,
@@ -18738,7 +18738,7 @@
     "quadrant": "E2",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": null
   },
   {
@@ -18762,7 +18762,7 @@
     "quadrant": "A4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": [
       {
         "id": 714,
@@ -18791,7 +18791,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": [
       {
         "id": 714,
@@ -18820,7 +18820,7 @@
     "quadrant": "A5",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -18910,7 +18910,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -18934,7 +18934,7 @@
     "quadrant": "E2",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Goomba (stack)" } ],
+    "moonTypes": [{ "name": "Goomba (stack)" }],
     "moonPrerequisites": null
   },
   {
@@ -18987,7 +18987,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Gloryhole" } ],
+    "moonTypes": [{ "name": "Gloryhole" }],
     "moonPrerequisites": [
       {
         "id": 712,
@@ -19020,7 +19020,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Gloryhole" } ],
+    "moonTypes": [{ "name": "Gloryhole" }],
     "moonPrerequisites": [
       {
         "id": 712,
@@ -19049,7 +19049,7 @@
     "quadrant": "A4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Gloryhole" } ],
+    "moonTypes": [{ "name": "Gloryhole" }],
     "moonPrerequisites": null
   },
   {
@@ -19160,7 +19160,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Fishing" } ],
+    "moonTypes": [{ "name": "Fishing" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -19189,7 +19189,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": [
       {
         "id": 714,
@@ -19218,7 +19218,7 @@
     "quadrant": "B2",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": [
       {
         "id": 713,
@@ -19247,7 +19247,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -19370,7 +19370,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -19515,7 +19515,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Binoculars" } ],
+    "moonTypes": [{ "name": "Binoculars" }],
     "moonPrerequisites": null
   },
   {
@@ -19539,7 +19539,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "I Met a..." } ],
+    "moonTypes": [{ "name": "I Met a..." }],
     "moonPrerequisites": null
   },
   {
@@ -19563,7 +19563,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -19587,7 +19587,7 @@
     "quadrant": "A5",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": null
   },
   {
@@ -19611,7 +19611,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Warp Painting" } ],
+    "moonTypes": [{ "name": "Warp Painting" }],
     "moonPrerequisites": null
   },
   {
@@ -19635,7 +19635,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -19686,7 +19686,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Gloryhole" } ],
+    "moonTypes": [{ "name": "Gloryhole" }],
     "moonPrerequisites": null
   },
   {
@@ -19710,7 +19710,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Crate" } ],
+    "moonTypes": [{ "name": "Crate" }],
     "moonPrerequisites": null
   },
   {
@@ -19734,7 +19734,7 @@
     "quadrant": "A5",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": null
   },
   {
@@ -19758,7 +19758,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Block" } ],
+    "moonTypes": [{ "name": "Block" }],
     "moonPrerequisites": null
   },
   {
@@ -19830,7 +19830,7 @@
     "quadrant": "C3",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": null
   },
   {
@@ -19882,7 +19882,7 @@
     "quadrant": "D2",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -19906,7 +19906,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": null
   },
   {
@@ -19954,7 +19954,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": null
   },
   {
@@ -19978,7 +19978,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 752,
@@ -20034,7 +20034,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": null
   },
   {
@@ -20082,7 +20082,7 @@
     "quadrant": "B4",
     "orderBit": null,
     "kingdomOrder": 14,
-    "moonTypes": [ { "name": "Crate" } ],
+    "moonTypes": [{ "name": "Crate" }],
     "moonPrerequisites": null
   },
   {
@@ -20130,7 +20130,7 @@
     "quadrant": "E3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -20159,7 +20159,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Cappy (Spin)" } ],
+    "moonTypes": [{ "name": "Cappy (Spin)" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -20188,7 +20188,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Rolling Rock" } ],
+    "moonTypes": [{ "name": "Rolling Rock" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -20217,7 +20217,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "MIPS" } ],
+    "moonTypes": [{ "name": "MIPS" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -20246,7 +20246,7 @@
     "quadrant": "C2",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -20307,7 +20307,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Notes" } ],
+    "moonTypes": [{ "name": "Notes" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -20365,7 +20365,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Key" } ],
+    "moonTypes": [{ "name": "Key" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -20423,7 +20423,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Ground Pound" } ],
+    "moonTypes": [{ "name": "Ground Pound" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -20452,7 +20452,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Chest" } ],
+    "moonTypes": [{ "name": "Chest" }],
     "moonPrerequisites": [
       {
         "id": 715,
@@ -20564,7 +20564,7 @@
     "quadrant": "A2",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Shards" } ],
+    "moonTypes": [{ "name": "Shards" }],
     "moonPrerequisites": null
   },
   {
@@ -20588,7 +20588,7 @@
     "quadrant": "B3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Sphynx" } ],
+    "moonTypes": [{ "name": "Sphynx" }],
     "moonPrerequisites": null
   },
   {
@@ -20612,7 +20612,7 @@
     "quadrant": "E4",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": null
   },
   {
@@ -20636,7 +20636,7 @@
     "quadrant": "E3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Shopping" } ],
+    "moonTypes": [{ "name": "Shopping" }],
     "moonPrerequisites": null
   },
   {
@@ -20660,7 +20660,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Tracewalking" } ],
+    "moonTypes": [{ "name": "Tracewalking" }],
     "moonPrerequisites": null
   },
   {
@@ -20684,7 +20684,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": null
   },
   {
@@ -20708,7 +20708,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Costume" } ],
+    "moonTypes": [{ "name": "Costume" }],
     "moonPrerequisites": null
   },
   {
@@ -20759,7 +20759,7 @@
     "quadrant": "E4",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Tourist" } ],
+    "moonTypes": [{ "name": "Tourist" }],
     "moonPrerequisites": [
       {
         "id": 681,
@@ -20788,7 +20788,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Peach" } ],
+    "moonTypes": [{ "name": "Peach" }],
     "moonPrerequisites": null
   },
   {
@@ -20938,7 +20938,7 @@
     "quadrant": "D4",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Tracewalking" } ],
+    "moonTypes": [{ "name": "Tracewalking" }],
     "moonPrerequisites": [
       {
         "id": 794,
@@ -20967,7 +20967,7 @@
     "quadrant": "A3",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "Koopa Freerunning" } ],
+    "moonTypes": [{ "name": "Koopa Freerunning" }],
     "moonPrerequisites": [
       {
         "id": 795,
@@ -21023,7 +21023,7 @@
     "quadrant": "E4",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": null
   },
   {
@@ -21047,7 +21047,7 @@
     "quadrant": "E4",
     "orderBit": null,
     "kingdomOrder": 15,
-    "moonTypes": [ { "name": "8-bit" } ],
+    "moonTypes": [{ "name": "8-bit" }],
     "moonPrerequisites": null
   },
   {
@@ -21119,7 +21119,7 @@
     "quadrant": "A4",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Boss" } ],
+    "moonTypes": [{ "name": "Boss" }],
     "moonPrerequisites": null
   },
   {
@@ -21143,7 +21143,7 @@
     "quadrant": "A4",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Captain Toad" } ],
+    "moonTypes": [{ "name": "Captain Toad" }],
     "moonPrerequisites": null
   },
   {
@@ -21199,7 +21199,7 @@
     "quadrant": "E2",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Scarecrow" } ],
+    "moonTypes": [{ "name": "Scarecrow" }],
     "moonPrerequisites": [
       {
         "id": 812,
@@ -21228,7 +21228,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Scarecrow" } ],
+    "moonTypes": [{ "name": "Scarecrow" }],
     "moonPrerequisites": [
       {
         "id": 812,
@@ -21289,7 +21289,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Scarecrow" } ],
+    "moonTypes": [{ "name": "Scarecrow" }],
     "moonPrerequisites": [
       {
         "id": 812,
@@ -21318,7 +21318,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Scarecrow" } ],
+    "moonTypes": [{ "name": "Scarecrow" }],
     "moonPrerequisites": [
       {
         "id": 812,
@@ -21347,7 +21347,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Yoshi" } ],
+    "moonTypes": [{ "name": "Yoshi" }],
     "moonPrerequisites": [
       {
         "id": 812,
@@ -21376,7 +21376,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Yoshi" } ],
+    "moonTypes": [{ "name": "Yoshi" }],
     "moonPrerequisites": [
       {
         "id": 812,
@@ -21409,7 +21409,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Yoshi" } ],
+    "moonTypes": [{ "name": "Yoshi" }],
     "moonPrerequisites": [
       {
         "id": 812,
@@ -21438,7 +21438,7 @@
     "quadrant": "C4",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Yoshi" } ],
+    "moonTypes": [{ "name": "Yoshi" }],
     "moonPrerequisites": [
       {
         "id": 812,
@@ -21471,7 +21471,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Yoshi" } ],
+    "moonTypes": [{ "name": "Yoshi" }],
     "moonPrerequisites": [
       {
         "id": 812,
@@ -21500,7 +21500,7 @@
     "quadrant": "D3",
     "orderBit": null,
     "kingdomOrder": 16,
-    "moonTypes": [ { "name": "Yoshi" } ],
+    "moonTypes": [{ "name": "Yoshi" }],
     "moonPrerequisites": [
       {
         "id": 812,

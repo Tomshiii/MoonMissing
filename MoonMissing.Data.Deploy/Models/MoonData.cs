@@ -1,29 +1,14 @@
-﻿#region Title Header
-
-// Name: Phillip Smith
-// 
-// Solution: MoonMissing
-// Project: MoonMissing
-// File Name: MoonData.cs
-// 
-// Current Data:
-// 2022-01-22 9:41 PM
-// 
-// Creation Date:
-// 2022-01-22 4:27 PM
-
-#endregion
-
-#region usings
+﻿#region usings
 
 using System.Collections.Generic;
+using MoonMissing.Data.Models;
 using Newtonsoft.Json;
 
 #endregion
 
-namespace MoonMissing.Models
+namespace MoonMissing.Data.Deploy.Models
 {
-  internal class MoonData
+  internal sealed record MoonData
   {
     [JsonProperty("id")]
     public int MoonId { get; init; }
@@ -31,10 +16,10 @@ namespace MoonMissing.Models
     [JsonProperty("moonNumber")]
     public int MoonNumber { get; init; }
 
-    public int KingdomId => Kingdom.Value;
+    public int KingdomId => KingdomName.Value;
 
     [JsonProperty("kingdom")]
-    public Kingdom Kingdom { get; init; }
+    public KingdomName KingdomName { get; init; }
 
     [JsonProperty("name")]
     public string MoonName { get; init; }
@@ -51,7 +36,7 @@ namespace MoonMissing.Models
     [JsonProperty("quadrant")]
     public string Quadrant { get; init; }
 
-    [JsonProperty("moonTypes")]
-    public IReadOnlyCollection<MoonType> MoonTypes { get; init; }
+    [JsonProperty("imageNames")]
+    public IEnumerable<string> ImageNames { get; init; }
   }
 }
