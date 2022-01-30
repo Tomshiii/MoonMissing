@@ -3,11 +3,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MoonMissing.Data.Deploy;
 using System.Threading.Tasks;
-using MoonMissing.Data;
 using MoonMissing.Data.Extensions;
 
 class Program
 {
+    // To re-create the Migrations use powershell:
+    // add-migration -Context MoonMissingDeployDbContext
     static async Task Main()
     {
         await GenericHost

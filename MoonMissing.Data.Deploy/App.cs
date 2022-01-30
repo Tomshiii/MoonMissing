@@ -31,8 +31,7 @@ namespace MoonMissing.Data.Deploy
         {
             await using (var dbContext = await _dbContextFactory.CreateDbContextAsync(cancellationToken))
             {
-                // Just while testing
-                //await dbContext.Database.EnsureDeletedAsync(cancellationToken);
+                await dbContext.Database.EnsureDeletedAsync(cancellationToken);
 
                 await dbContext.Database.MigrateAsync(cancellationToken);
 
@@ -75,7 +74,12 @@ namespace MoonMissing.Data.Deploy
                             .Select(item => new Moon
                             {
                                 Id = item.MoonId,
-                                Number = item.MoonNumber
+                                Number = item.MoonNumber,
+                                MoonName = item.MoonName,
+                                IsRockMoon = item.IsRockMoon,
+                                IsSubAreaMoon = item.IsSubAreaMoon,
+                                IsMultiMoon = item.IsMultiMoon,
+                                Quadrant = item.Quadrant
                             })
                             .ToList()
                     };

@@ -11,7 +11,7 @@ using MoonMissing.Data.Deploy;
 namespace MoonMissing.Data.Deploy.Migrations
 {
     [DbContext(typeof(MoonMissingDeployDbContext))]
-    [Migration("20220126080501_Init")]
+    [Migration("20220130010021_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,11 +39,26 @@ namespace MoonMissing.Data.Deploy.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<bool>("IsMultiMoon")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("IsRockMoon")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("IsSubAreaMoon")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int?>("KingdomId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("MoonName")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("Number")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("Quadrant")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
