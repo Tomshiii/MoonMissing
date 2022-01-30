@@ -1,18 +1,14 @@
-﻿#region usings
-
+﻿using MoonMissing.Data.Models;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using MoonMissing.Data.Models;
-
-#endregion
 
 namespace MoonMissing.Data.Entities
 {
-  [Table("Kingdom")]
-  public sealed class Kingdom
-  {
-    public int Id { get; set; }
-    public KingdomName Name { get; set; }
-    public ICollection<Moon> Moons { get; set; }
-  }
+    [Table("Kingdom")]
+    public sealed class Kingdom
+    {
+        public int Id { get; init; }
+        public KingdomName Name { get; init; }
+        public ICollection<Moon> Moons { get; init; }
+    }
 }

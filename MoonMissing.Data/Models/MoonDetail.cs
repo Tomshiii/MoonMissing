@@ -1,19 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace MoonMissing.Data.Entities
+﻿namespace MoonMissing.Data.Models
 {
-    [Table("Moon")]
-    public sealed class Moon
+    internal sealed class MoonDetail : IMoonDetail
     {
         public int Id { get; init; }
         public int Number { get; init; }
-        public string MoonName { get; init; }
+        public string Name { get; init; }
         public bool IsRockMoon { get; init; }
         public bool IsSubAreaMoon { get; init; }
         public bool IsMultiMoon { get; init; }
         public string Quadrant { get; init; }
-
-        // Navigation property
-        public Kingdom Kingdom { get; set; }
     }
 }

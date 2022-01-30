@@ -28,6 +28,11 @@ namespace MoonMissing.Data.Deploy.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Number = table.Column<int>(type: "INTEGER", nullable: false),
+                    MoonName = table.Column<string>(type: "TEXT", nullable: true),
+                    IsRockMoon = table.Column<bool>(type: "INTEGER", nullable: false),
+                    IsSubAreaMoon = table.Column<bool>(type: "INTEGER", nullable: false),
+                    IsMultiMoon = table.Column<bool>(type: "INTEGER", nullable: false),
+                    Quadrant = table.Column<string>(type: "TEXT", nullable: true),
                     KingdomId = table.Column<int>(type: "INTEGER", nullable: true)
                 },
                 constraints: table =>
