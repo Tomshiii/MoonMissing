@@ -8,8 +8,10 @@ namespace MoonMissing.Data
 {
     public class MoonMissingDbContext : DbContext
     {
-        public DbSet<Kingdom> Kingdoms { get; set; }
-        public DbSet<Moon> Moons { get; set; }
+        public DbSet<KingdomEntity> Kingdoms { get; set; }
+        public DbSet<MoonEntity> Moons { get; set; }
+        public DbSet<ImageEntity> Images { get; set; }
+        public DbSet<MoonImageEntity> MoonImages { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {

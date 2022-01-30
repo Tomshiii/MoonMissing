@@ -9,5 +9,6 @@ namespace MoonMissing.Data.Repositories
     {
         Task<IReadOnlyCollection<KingdomName>> GetKingdomNamesAsync(CancellationToken cancellationToken = default);
         Task<IReadOnlyCollection<IMoonDetail>> GetMoonDetailsAsync(int kingdomId, CancellationToken cancellationToken = default);
+        Task<byte[]> GetImageDataAsync(int imageId, CancellationToken cancellationToken = default);
     }
 }

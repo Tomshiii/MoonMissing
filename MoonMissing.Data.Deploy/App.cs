@@ -10,8 +10,11 @@ using MoonMissing.Data.Entities;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using AllOverIt.Io;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using MoonMissing.Data.Repositories;
 
 namespace MoonMissing.Data.Deploy
@@ -43,6 +46,15 @@ namespace MoonMissing.Data.Deploy
                 {
                     Console.WriteLine($"{kingdom.Value} - {kingdom.Name}");
                 }
+
+                //// Testing reading moon details and images
+                //var moonDetails = await _repository.GetMoonDetailsAsync(1, cancellationToken);
+
+                //// get the images asynchronously
+                //var images = await moonDetails
+                //    .SelectMany(item => item.MoonImages)
+                //    .SelectAsync(item => _repository.GetImageDataAsync(item.Id, cancellationToken), cancellationToken)
+                //    .AsListAsync(cancellationToken);
             }
         }
 
@@ -54,24 +66,36 @@ namespace MoonMissing.Data.Deploy
 
             if (!haveData)
             {
-                var moonData = await LoadJsonMoonData(cancellationToken).ConfigureAwait(false);
+                await AddMoonImagesAsync(dbContext, cancellationToken).ConfigureAwait(false);
+                await dbContext.SaveChangesAsync(cancellationToken).ConfigureAwait(false);
 
-                var groupedMoonData = moonData
-                    .GroupBy(item => new
-                    {
-                        item.KingdomId,
-                        item.KingdomName
-                    })
-                    .AsReadOnlyCollection();
+                await AddKingdomMoonDataAsync(dbContext, cancellationToken).ConfigureAwait(false);
+                await dbContext.SaveChangesAsync(cancellationToken).ConfigureAwait(false);
+            }
+        }
 
-                foreach (var kingdom in groupedMoonData)
+        private static async Task AddKingdomMoonDataAsync(MoonMissingDeployDbContext dbContext, CancellationToken cancellationToken)
+        {
+            var moonData = await LoadJsonMoonData(cancellationToken).ConfigureAwait(false);
+
+            var groupedMoonData = moonData
+                .GroupBy(item => new
                 {
-                    var kingdomEntity = new Kingdom
-                    {
-                        Id = kingdom.Key.KingdomId,
-                        Name = kingdom.Key.KingdomName,
-                        Moons = kingdom
-                            .Select(item => new Moon
+                    item.KingdomId,
+                    item.KingdomName
+                })
+                .AsReadOnlyCollection();
+
+            foreach (var kingdom in groupedMoonData)
+            {
+                var kingdomEntity = new KingdomEntity
+                {
+                    Id = kingdom.Key.KingdomId,
+                    Name = kingdom.Key.KingdomName,
+                    Moons = await kingdom
+                        .SelectAsync(async item =>
+                        {
+                            var moonEntity = new MoonEntity
                             {
                                 Id = item.MoonId,
                                 Number = item.MoonNumber,
@@ -79,15 +103,56 @@ namespace MoonMissing.Data.Deploy
                                 IsRockMoon = item.IsRockMoon,
                                 IsSubAreaMoon = item.IsSubAreaMoon,
                                 IsMultiMoon = item.IsMultiMoon,
-                                Quadrant = item.Quadrant
-                            })
-                            .ToList()
-                    };
+                                Quadrant = item.Quadrant,
+                                MoonImages = new List<MoonImageEntity>()
+                            };
 
-                    dbContext.Kingdoms.Add(kingdomEntity);
-                }
+                            if (item.ImageNames.Any())
+                            {
+                                var query = from image in dbContext.Images
+                                            where item.ImageNames.Contains(image.Name)
+                                            select image;
 
-                await dbContext.SaveChangesAsync(cancellationToken).ConfigureAwait(false);
+                                var results = await query.ToListAsync(cancellationToken).ConfigureAwait(false);
+
+                                foreach (var result in results)
+                                {
+                                    var moonImageEntity = new MoonImageEntity
+                                    {
+                                        //Moon = moonEntity
+                                        Image = result
+                                    };
+
+                                    moonEntity.MoonImages.Add(moonImageEntity);
+                                }
+                            }
+
+                            return moonEntity;
+                        }, cancellationToken)
+                        .AsListAsync(cancellationToken)
+                };
+
+                
+
+                dbContext.Kingdoms.Add(kingdomEntity);
+            }
+        }
+
+        private static async Task AddMoonImagesAsync(MoonMissingDeployDbContext dbContext, CancellationToken cancellationToken)
+        {
+            var imageFiles = FileSearch.GetFiles(@"..\..\..\..\Assets\Moon Locations", "*.png", DiskSearchOptions.None, cancellationToken);
+
+            foreach (var imageFile in imageFiles)
+            {
+                var imageBytes = await GetImageAsBytes(imageFile.FullName).ConfigureAwait(false);
+
+                var imageEntity = new ImageEntity
+                {
+                    Name = Path.GetFileNameWithoutExtension(imageFile.Name),
+                    Data = imageBytes
+                };
+
+                dbContext.Images.Add(imageEntity);
             }
         }
 
@@ -107,13 +172,26 @@ namespace MoonMissing.Data.Deploy
 
         private static async Task<IReadOnlyCollection<MoonData>> LoadJsonMoonData(CancellationToken cancellationToken)
         {
-            await using (var fileStream = File.OpenRead("MoonData.json"))
+            // Assumes running from the bin\{build type}
+            await using (var fileStream = File.OpenRead(@"..\..\..\..\Assets\MoonData.json"))
             {
                 var serializer = GetSerializer();
 
                 return await serializer
                     .DeserializeObjectAsync<IReadOnlyCollection<MoonData>>(fileStream, cancellationToken)
                     .ConfigureAwait(false);
+            }
+        }
+
+        private static async Task<byte[]> GetImageAsBytes(string filename)
+        {
+            using (var stream = File.Open(filename, FileMode.Open))
+            {
+                using (var ms = new MemoryStream())
+                {
+                    await stream.CopyToAsync(ms).ConfigureAwait(false);
+                    return ms.ToArray();
+                }
             }
         }
     }

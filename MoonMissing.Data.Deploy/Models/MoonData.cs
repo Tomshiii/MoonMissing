@@ -1,4 +1,6 @@
-﻿using MoonMissing.Data.Models;
+﻿using System.Collections;
+using System.Collections.Generic;
+using MoonMissing.Data.Models;
 using Newtonsoft.Json;
 
 namespace MoonMissing.Data.Deploy.Models
@@ -30,5 +32,8 @@ namespace MoonMissing.Data.Deploy.Models
 
         [JsonProperty("quadrant")]
         public string Quadrant { get; init; }
+
+        [JsonProperty("imageNames")]
+        public IEnumerable<string> ImageNames { get; init; }
     }
 }

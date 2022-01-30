@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using AllOverIt.Assertion;
+using Microsoft.EntityFrameworkCore;
+using MoonMissing.Data.Models;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using AllOverIt.Assertion;
 using AllOverIt.Extensions;
-using Microsoft.EntityFrameworkCore;
-using MoonMissing.Data.Models;
 
 namespace MoonMissing.Data.Repositories
 {
@@ -33,31 +33,53 @@ namespace MoonMissing.Data.Repositories
         {
             await using (var dbContext = await _dbContextFactory.CreateDbContextAsync(cancellationToken))
             {
-                var query = from moon in dbContext.Moons
-                            where moon.Kingdom.Id == kingdomId
-                            select new MoonDetail
-                            {
-                                Id = moon.Id,
-                                Name = moon.MoonName,
-                                Number = moon.Number,
-                                Quadrant = moon.Quadrant,
-                                IsMultiMoon = moon.IsMultiMoon,
-                                IsRockMoon = moon.IsRockMoon,
-                                IsSubAreaMoon = moon.IsSubAreaMoon,
-                            };
+                var query =
+                    from moon in dbContext.Moons
+                    where moon.Kingdom.Id == kingdomId
+                    let images = from moonImage in moon.MoonImages
+                                 select new
+                                 {
+                                     moonImage.Image.Id,
+                                     moonImage.Image.Name
+                                 }
+                    select new
+                    {
+                        Moon = moon,
+                        Images = images
+                    };
 
-                return await query.ToListAsync(cancellationToken);
+                var results = await query.ToListAsync(cancellationToken);
 
-                //return results.SelectAsReadOnlyCollection(item => new MoonDetail
-                //{
-                //    Id = item.Id,
-                //    Name = item.MoonName,
-                //    Number = item.Number,
-                //    Quadrant = item.Quadrant,
-                //    IsMultiMoon = item.IsMultiMoon,
-                //    IsRockMoon = item.IsRockMoon,
-                //    IsSubAreaMoon = item.IsSubAreaMoon,
-                //});
+                return results.SelectAsReadOnlyCollection(item =>
+                {
+                    return new MoonDetail
+                    {
+                        Id = item.Moon.Id,
+                        Name = item.Moon.MoonName,
+                        Number = item.Moon.Number,
+                        Quadrant = item.Moon.Quadrant,
+                        IsMultiMoon = item.Moon.IsMultiMoon,
+                        IsRockMoon = item.Moon.IsRockMoon,
+                        IsSubAreaMoon = item.Moon.IsSubAreaMoon,
+                        MoonImages = item.Images.SelectAsReadOnlyCollection(image => new MoonImage
+                        {
+                            Id = image.Id,
+                            Name = image.Name,
+                        })
+                    };
+                });
+            }
+        }
+
+        public async Task<byte[]> GetImageDataAsync(int imageId, CancellationToken cancellationToken = default)
+        {
+            await using (var dbContext = await _dbContextFactory.CreateDbContextAsync(cancellationToken))
+            {
+                var query = from image in dbContext.Images
+                    where image.Id == imageId
+                    select image.Data;
+
+                return await query.SingleOrDefaultAsync(cancellationToken);
             }
         }
     }

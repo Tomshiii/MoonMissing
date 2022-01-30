@@ -1,4 +1,6 @@
-﻿namespace MoonMissing.Data.Models
+﻿using System.Collections.Generic;
+
+namespace MoonMissing.Data.Models
 {
     public interface IMoonDetail
     {
@@ -9,5 +11,6 @@
         bool IsSubAreaMoon { get; }
         bool IsMultiMoon { get; }
         string Quadrant { get; }
+        IReadOnlyCollection<IMoonImage> MoonImages { get; }
     }
 }

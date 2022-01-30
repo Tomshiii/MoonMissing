@@ -1,9 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MoonMissing.Data.Entities
 {
     [Table("Moon")]
-    public sealed class Moon
+    public sealed class MoonEntity
     {
         public int Id { get; init; }
         public int Number { get; init; }
@@ -13,7 +15,9 @@ namespace MoonMissing.Data.Entities
         public bool IsMultiMoon { get; init; }
         public string Quadrant { get; init; }
 
-        // Navigation property
-        public Kingdom Kingdom { get; set; }
+        public ICollection<MoonImageEntity> MoonImages { get; init; }
+
+        [Required]
+        public KingdomEntity Kingdom { get; set; }
     }
 }
