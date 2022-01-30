@@ -21,7 +21,7 @@ namespace MoonMissing.Data
     {
       base.OnConfiguring(options);
 
-      var connectionString = "data source=MoonMissing.db";
+      const string connectionString = "data source=MoonMissing.db";
 
       options
         .UseSqlite(connectionString)
