@@ -3,9 +3,9 @@
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
 		<TargetFramework>net6.0-windows</TargetFramework>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
 		<UseWPF>true</UseWPF>
+		<PackageIcon>Multi_Moon_128px.png</PackageIcon>
+		<ApplicationIcon>Resources\images\Moons\Multi_Moon.ico</ApplicationIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -40,7 +40,10 @@
 		<None Remove="Resources\images\Moons\Moon_Wooded.png" />
 		<None Remove="Resources\images\Moons\Multi_Moon.png" />
 		<None Remove="Resources\images\Moons\Super_Star.png" />
-		<None Remove="Resources\MoonData.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Resources\images\Moons\Multi_Moon.ico" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -72,9 +75,6 @@
 		<Resource Include="Resources\images\Moons\Moon_Wooded.png" />
 		<Resource Include="Resources\images\Moons\Multi_Moon.png" />
 		<Resource Include="Resources\images\Moons\Super_Star.png" />
-		<Resource Include="Resources\MoonData.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</Resource>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -85,15 +85,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Compile Update="Resources\EmbeddedData.Designer.cs">
+		<Compile Update="Resources\MoonIcons.Designer.cs">
 			<DesignTime>True</DesignTime>
 			<AutoGen>True</AutoGen>
-			<DependentUpon>EmbeddedData.resx</DependentUpon>
-		</Compile>
-		<Compile Update="Resources\MoonImages.Designer.cs">
-			<DesignTime>True</DesignTime>
-			<AutoGen>True</AutoGen>
-			<DependentUpon>MoonImages.resx</DependentUpon>
+			<DependentUpon>MoonIcons.resx</DependentUpon>
 		</Compile>
 		<Compile Update="Resources\LevelImages.Designer.cs">
 			<DesignTime>True</DesignTime>
@@ -103,18 +98,30 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Update="Resources\EmbeddedData.resx">
+		<EmbeddedResource Update="Resources\MoonIcons.resx">
 			<Generator>ResXFileCodeGenerator</Generator>
-			<LastGenOutput>EmbeddedData.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-		<EmbeddedResource Update="Resources\MoonImages.resx">
-			<Generator>ResXFileCodeGenerator</Generator>
-			<LastGenOutput>MoonImages.Designer.cs</LastGenOutput>
+			<LastGenOutput>MoonIcons.Designer.cs</LastGenOutput>
 		</EmbeddedResource>
 		<EmbeddedResource Update="Resources\LevelImages.resx">
 			<Generator>ResXFileCodeGenerator</Generator>
 			<LastGenOutput>LevelImages.Designer.cs</LastGenOutput>
 		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Resources\images\Moons\Multi_Moon_128px.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Models\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\MoonMissing.Data\MoonMissing.Data.csproj" />
+	  <ProjectReference Include="..\MoonMissing.WPF.Shared\MoonMissing.WPF.Shared.csproj" />
 	</ItemGroup>
 
 </Project>
