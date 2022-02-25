@@ -9,6 +9,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Models\**" />
+	  <EmbeddedResource Remove="Models\**" />
+	  <None Remove="Models\**" />
+	  <Page Remove="Models\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<None Remove="Resources\images\L1_cap.png" />
 		<None Remove="Resources\images\L2_Cascade.png" />
 		<None Remove="Resources\images\L3_Sand.png" />
@@ -113,10 +120,6 @@
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Models\" />
 	</ItemGroup>
 
 	<ItemGroup>
